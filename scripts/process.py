@@ -10,12 +10,14 @@ from pathlib import Path
 try:
     from crawl.sources.fanzha import FanZhaSpider
     from ai.extractor import extract_case_info
+    from generate_case_pages import generate_case_pages
 except ImportError:
     import sys
 
     sys.path.insert(0, str(Path(__file__).parent))
     from crawl.sources.fanzha import FanZhaSpider
     from ai.extractor import extract_case_info
+    from generate_case_pages import generate_case_pages
 
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -105,6 +107,9 @@ def main() -> None:
     save_json(cases_file, all_cases)
     print(f"发布数据已保存到: {cases_file}")
     print(f"当前累计案例数: {len(all_cases)}")
+
+    generate_case_pages(all_cases)
+    print("案例文档页已生成。")
 
 
 if __name__ == "__main__":

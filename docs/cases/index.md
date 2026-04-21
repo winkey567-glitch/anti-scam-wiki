@@ -4,7 +4,13 @@
 
 这里计划收集真实的老年人诈骗案例，经过脱敏处理后整理发布，帮助更多家庭识别套路、减少损失。
 
-当前项目仍以场景科普为主，正式案例库还在逐步补充中。
+当前项目已接入自动生成流程：
+
+- 原始和结构化数据保存在 `data/published/cases.json`
+- 站点页面会自动生成到 `/cases/latest` 和 `/cases/generated/`
+- 后续只要更新数据，就能自动生成可浏览的案例页
+
+[查看最新案例汇总 →](/cases/latest)
 
 ## 现在可以先看什么
 
@@ -20,6 +26,11 @@
 - [AI 换脸](/scenarios/ai-face)
 - [假冒熟人](/scenarios/fake-friend)
 - [刷单返利](/scenarios/brushing)
+
+## 自动生成页面
+
+- [最新案例汇总](/cases/latest)
+- [自动生成案例页索引](/cases/generated/)
 
 ## 按目标人群查看
 
