@@ -4,7 +4,6 @@ export default defineConfig({
   title: '老年人防诈骗 Wiki',
   description: '面向子女的老年人防诈骗知识库',
   base: '/anti-scam-wiki/',
-  
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -15,7 +14,6 @@ export default defineConfig({
       { text: '案例库', link: '/cases/' },
       { text: '指南', link: '/guide/' }
     ],
-    
     sidebar: {
       '/scenarios/': [
         { text: '场景总览', link: '/scenarios/' },
@@ -46,14 +44,12 @@ export default defineConfig({
         { text: '家庭清单', link: '/guide/checklist' }
       ]
     },
-    
     search: {
       provider: 'local'
     },
-    
     footer: {
       message: '本站信息仅供预防参考，如遇诈骗请拨打 96110',
-      copyright: 'Copyright © 2026 Anti-Scam-Elders'
+      copyright: 'Copyright © 2026 Anti-Scam Wiki Contributors'
     }
   }
 })

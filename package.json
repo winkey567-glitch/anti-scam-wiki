@@ -2,10 +2,15 @@
   "name": "anti-scam-wiki",
   "version": "1.0.0",
   "description": "老年人防诈骗 Wiki",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "check": "npm run docs:build"
   },
   "devDependencies": {
     "vitepress": "^1.0.0"

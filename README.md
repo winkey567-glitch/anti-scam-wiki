@@ -4,110 +4,125 @@
 
 ## 项目简介
 
-这是一个**开源、公益、社区共建**的老年人防诈骗知识库，旨在帮助子女更好地保护父母免受诈骗侵害。
+这是一个开源、公益、社区共建的小型反诈知识库项目，目标很简单：
 
-### 核心功能
+- 帮助子女快速识别父母可能遭遇的常见骗局
+- 提供发现风险时可直接执行的家庭应急流程
+- 用尽量低维护成本的方式长期稳定运行
 
-- 🚨 **应急SOP** - 发现父母正在被诈骗时的5步急救指南
-- 🎯 **人群测试** - 3分钟测试，了解父母属于哪种易骗类型
-- 📚 **诈骗场景库** - 10大高发诈骗场景，真实案例+识别要点
-- 👥 **人群分类指南** - 7类易骗人群深度分析
-- 🛡️ **家庭防御清单** - 可打印的A4检查清单
+## 当前功能
 
-## 快速开始
-
-### 本地开发
-
-```bash
-# 克隆仓库
-git clone https://github.com/your-username/anti-scam-wiki.git
-cd anti-scam-wiki
-
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run docs:dev
-```
-
-### 数据抓取
-
-```bash
-# 安装Python依赖
-pip install -r requirements.txt
-
-# 设置Gemini API密钥
-export GOOGLE_API_KEY="your-api-key"
-
-# 运行爬虫
-python scripts/process.py
-```
-
-## 项目结构
-
-```
-anti-scam-wiki/
-├── docs/                    # VitePress文档
-│   ├── .vitepress/         # 配置文件
-│   ├── scenarios/          # 诈骗场景
-│   ├── profiles/           # 人群分类
-│   ├── cases/              # 案例库
-│   └── guide/              # 指南
-├── scripts/                # Python脚本
-│   ├── crawl/              # 爬虫
-│   └── ai/                 # AI处理
-├── data/                   # 数据
-│   ├── raw/                # 原始数据
-│   └── published/          # 已发布案例
-└── .github/workflows/      # 自动部署
-```
-
-## 贡献指南
-
-### 你可以这样贡献
-
-- 📝 **提交案例** - 通过GitHub Issue提交真实诈骗案例
-- 🔧 **改进代码** - 优化爬虫、AI处理或前端展示
-- 📖 **完善文档** - 补充人群分析、沟通话术等内容
-- 🌐 **翻译推广** - 帮助推广到更多社区
-
-### 提交案例模板
-
-```markdown
-**诈骗类型**：冒充客服退款
-**受骗人群**：技术懵懂型老人
-**诈骗话术**：
-- "您的快递丢了，要给您退款"
-- "需要下载APP办理退款"
-
-**识别要点**：
-- 主动来电声称快递问题
-- 要求下载陌生APP
-
-**应对措施**：
-- 立即挂断
-- 通过官方平台核实
-```
+- 应急 SOP：发现家人正在被骗时的处理步骤
+- 人群测试：帮助判断父母更容易被哪类骗局影响
+- 诈骗场景库：整理常见诈骗套路、危险信号和应对方式
+- 人群分类指南：按性格和习惯给出针对性建议
+- 家庭防御清单：适合打印后给家人使用
 
 ## 技术栈
 
-- **前端**: VitePress
-- **爬虫**: Python + requests + BeautifulSoup
-- **AI处理**: Gemini API
-- **部署**: GitHub Pages
-- **自动化**: GitHub Actions
+- 前端文档站：VitePress
+- 数据抓取：Python + requests + BeautifulSoup
+- AI 提取：Gemini API
+- 部署：GitHub Pages + GitHub Actions
+
+## 本地开发
+
+建议使用 Node.js 20 或更高版本。
+
+```bash
+git clone https://github.com/your-username/anti-scam-wiki.git
+cd anti-scam-wiki
+npm install
+npm run docs:dev
+```
+
+构建检查：
+
+```bash
+npm run check
+```
+
+## 自动推送到 GitHub
+
+如果你希望本机在每次 `git commit` 后自动推送到 GitHub，可以执行：
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/setup-git-hooks.ps1
+```
+
+启用后，本地每次提交都会自动执行一次：
+
+```bash
+git push origin 当前分支
+```
+
+项目还内置了一个一键发布脚本：
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/publish.ps1 -Message "更新说明"
+```
+
+这条命令会自动完成：
+
+- `npm run check`
+- `git add -A`
+- `git commit -m "..."`
+- `git push origin 当前分支`（由 `post-commit` 钩子自动执行）
+
+## 数据抓取
+
+```bash
+pip install -r requirements.txt
+export GOOGLE_API_KEY="your-api-key"
+python scripts/process.py
+```
+
+如果没有配置 `GOOGLE_API_KEY`，AI 提取模块会退回到模板化输出，方便先跑通流程。
+
+## 项目结构
+
+```text
+anti-scam-wiki/
+├── docs/                   # VitePress 站点内容
+│   ├── .vitepress/         # 站点配置
+│   ├── scenarios/          # 诈骗场景
+│   ├── profiles/           # 人群分类
+│   ├── cases/              # 案例库
+│   └── guide/              # 指南内容
+├── scripts/                # 抓取与处理脚本
+│   ├── crawl/              # 数据源抓取
+│   └── ai/                 # AI 提取逻辑
+├── data/                   # 抓取结果与发布数据
+└── .github/workflows/      # 自动部署与定时任务
+```
+
+## 开源协作
+
+欢迎以低负担方式参与：
+
+- 提交真实案例或补充公开案例
+- 修正文案、错别字、链接和流程说明
+- 改进抓取脚本和发布流程
+- 增加更适合老人家庭使用的内容
+
+## 运行原则
+
+这个项目优先追求：
+
+1. 内容清晰
+2. 构建稳定
+3. 易于部署
+4. 低维护成本
+
+不追求复杂功能，不引入重型后台，不把维护门槛抬高。
 
 ## 免责声明
 
-本站信息仅供预防参考，不构成官方反诈建议。如遇诈骗请立即拨打：
+本站内容仅供反诈预防参考，不构成官方建议或法律意见。如遇诈骗，请第一时间联系：
 
-- **96110** - 反诈专线
-- **110** - 报警电话
+- `96110` 反诈专线
+- `110` 报警电话
 
 ## 许可证
 
 [MIT License](LICENSE)
-
----
-
-**保护父母，从了解开始。**

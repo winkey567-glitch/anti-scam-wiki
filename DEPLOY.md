@@ -3,137 +3,71 @@
 ## 前置要求
 
 - GitHub 账号
-- 本地安装 Node.js (v18+)
-- 本地安装 Python (v3.8+) - 用于爬虫
+- Node.js 20 或更高版本
+- Python 3.8 或更高版本
 
-## 第一步：创建 GitHub 仓库
+## 首次发布
 
-1. 登录 GitHub
-2. 点击右上角 **+** → **New repository**
-3. 仓库名称：`anti-scam-wiki`
-4. 选择 **Public**（公开）
-5. 不要勾选 "Add a README file"
-6. 点击 **Create repository**
+1. 创建一个公开仓库，名称建议为 `anti-scam-wiki`
+2. 将本地代码推送到 GitHub
+3. 在仓库 `Settings -> Pages` 中将来源设置为 `GitHub Actions`
+4. 推送到 `main` 分支后，GitHub Actions 会自动构建并发布
 
-## 第二步：推送代码到 GitHub
-
-在本地项目目录执行：
+## 本地命令
 
 ```bash
-cd G:\anti-scam-wiki
-
-# 初始化 git
-git init
-
-# 添加所有文件
-git add .
-
-# 提交
-git commit -m "Initial commit: Anti-Scam Wiki v1.0"
-
-# 关联远程仓库（替换为你的用户名）
-git remote add origin https://github.com/你的用户名/anti-scam-wiki.git
-
-# 推送
-git push -u origin main
-```
-
-## 第三步：启用 GitHub Pages
-
-1. 进入仓库页面
-2. 点击 **Settings** 标签
-3. 左侧菜单选择 **Pages**
-4. **Source** 选择 **GitHub Actions**
-
-## 第四步：配置自动部署
-
-项目已包含 `.github/workflows/deploy.yml`，推送后会自动部署。
-
-### 部署状态查看
-
-1. 进入仓库页面
-2. 点击 **Actions** 标签
-3. 查看部署状态
-
-## 第五步：访问网站
-
-部署完成后，访问地址：
-
-```
-https://你的用户名.github.io/anti-scam-wiki/
-```
-
-## 可选：配置自定义域名
-
-1. 在 `docs/.vitepress/` 目录创建 `CNAME` 文件
-2. 写入你的域名，如：`fangpian.wiki`
-3. 在域名服务商配置 CNAME 指向 `你的用户名.github.io`
-4. 在 GitHub Pages 设置中配置自定义域名
-
-## 本地开发
-
-```bash
-# 安装依赖
 npm install
-
-# 启动开发服务器
 npm run docs:dev
-
-# 构建
-npm run docs:build
-
-# 预览构建结果
+npm run check
 npm run docs:preview
 ```
 
-## 爬虫配置（可选）
+## 关键配置
 
-如需启用自动爬虫：
+站点基础路径配置在：
 
-1. 获取 Google AI API Key
-2. 在 GitHub 仓库设置中添加 Secret：
-   - 名称：`GOOGLE_API_KEY`
-   - 值：你的 API Key
-3. 爬虫会每天自动运行，抓取最新案例
-
-## 更新网站
-
-每次推送代码到 main 分支，GitHub Actions 会自动重新部署。
-
-```bash
-git add .
-git commit -m "更新内容"
-git push
+```text
+docs/.vitepress/config.mjs
 ```
 
-## 故障排查
-
-### 部署失败
-
-1. 检查 Actions 日志
-2. 确保 `docs/.vitepress/config.js` 中的 `base` 配置正确
-3. 确保 `package.json` 存在且正确
-
-### 页面404
-
-1. 检查仓库名称是否与 `base` 配置一致
-2. 等待几分钟后刷新（部署可能有延迟）
-3. 检查 GitHub Pages 设置是否正确
-
-### 样式丢失
-
-确保 `base` 配置与仓库名称一致：
+如果仓库名不是 `anti-scam-wiki`，需要同步修改：
 
 ```javascript
-// docs/.vitepress/config.js
 export default defineConfig({
-  base: '/anti-scam-wiki/',  // 必须与仓库名一致
-  // ...
+  base: '/anti-scam-wiki/'
 })
 ```
 
-## 完成！
+## 自动部署
 
-网站部署完成后，你就可以通过 GitHub Pages 地址访问了。
+项目内置工作流：
 
-记得把网址分享给需要的人！
+- `.github/workflows/deploy.yml`：构建并发布 VitePress 站点
+- `.github/workflows/crawl.yml`：定时抓取案例数据
+
+## 自动抓取说明
+
+如果需要启用 AI 提取，请在 GitHub 仓库 Secrets 中配置：
+
+- `GOOGLE_API_KEY`
+
+未配置时，抓取流程仍可运行，但只会输出基础模板化结构。
+
+## 常见问题
+
+### 页面 404
+
+- 检查 `base` 是否与仓库名一致
+- 检查 GitHub Pages 来源是否设置为 `GitHub Actions`
+- 等待部署完成后再刷新页面
+
+### 样式丢失
+
+- 通常是 `base` 配置错误
+- 确认构建产物来自 `docs/.vitepress/dist`
+
+### 构建失败
+
+- 先执行 `npm install`
+- 再运行 `npm run check`
+- 确认使用的是 Node.js 20+

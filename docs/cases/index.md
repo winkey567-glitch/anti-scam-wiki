@@ -2,68 +2,47 @@
 
 ## 关于案例库
 
-本案例库收集真实的老年人被骗案例，经过脱敏处理后展示，帮助其他子女识别骗局、吸取教训。
+这里计划收集真实的老年人诈骗案例，经过脱敏处理后整理发布，帮助更多家庭识别套路、减少损失。
 
-## 案例分类
+当前项目仍以场景科普为主，正式案例库还在逐步补充中。
 
-### 按诈骗类型
+## 现在可以先看什么
 
-- [冒充客服退款](./fake-customer-service)
-- [冒充公检法](./fake-police)
-- [保健品诈骗](./health-products)
-- [中奖/免费送礼](./free-gift)
-- [养老投资](./investment)
-- [情感诈骗](./romance)
-- [旅游团购](./travel)
-- [AI换脸](./ai-face)
-- [假冒熟人](./fake-friend)
-- [刷单返利](./brushing)
+在案例逐步沉淀完成前，建议先阅读已经整理好的诈骗场景：
 
-### 按目标人群
+- [冒充客服退款](/scenarios/fake-customer-service)
+- [冒充公检法](/scenarios/fake-police)
+- [保健品诈骗](/scenarios/health-products)
+- [中奖/免费送礼](/scenarios/free-gift)
+- [养老投资](/scenarios/investment)
+- [情感诈骗](/scenarios/romance)
+- [旅游团购](/scenarios/travel)
+- [AI 换脸](/scenarios/ai-face)
+- [假冒熟人](/scenarios/fake-friend)
+- [刷单返利](/scenarios/brushing)
 
-- [孤独空巢型](../profiles/lonely)
-- [健康焦虑型](../profiles/health-anxiety)
-- [贪小便宜型](../profiles/greedy)
-- [盲目投资型](../profiles/investor)
-- [认知衰退型](../profiles/cognitive)
-- [热衷社交型](../profiles/social)
-- [技术懵懂型](../profiles/tech-illiterate)
+## 按目标人群查看
 
-## 最新案例
+- [孤独空巢型](/profiles/lonely)
+- [健康焦虑型](/profiles/health-anxiety)
+- [贪小便宜型](/profiles/greedy)
+- [盲目投资型](/profiles/investor)
+- [认知衰退型](/profiles/cognitive)
+- [热衷社交型](/profiles/social)
+- [技术懵懂型](/profiles/tech-illiterate)
 
-> 案例正在整理中，欢迎投稿。
+## 投稿建议
 
-## 如何投稿
+如果你愿意补充案例，建议包含这些信息：
 
-如果你或身边的人有被骗经历，欢迎投稿：
+- 诈骗类型
+- 目标人群
+- 发生经过
+- 危险信号
+- 止损方式
+- 复盘教训
 
-1. **GitHub Issue**：提交到项目Issues
-2. **邮件投稿**：发送案例到项目邮箱
-3. **Pull Request**：直接提交Markdown文件
+## 说明
 
-### 投稿格式
-
-```markdown
-## 案例标题
-
-**诈骗类型**：XX诈骗
-**目标人群**：XX型老人
-**损失金额**：XX元
-**发生时间**：202X年X月
-
-### 经过
-（详细描述被骗过程）
-
-### 教训
-（总结防骗要点）
-
-### 后续
-（如何处理、是否追回损失等）
-```
-
-## 免责声明
-
-- 所有案例均来自公开渠道或用户投稿
-- 个人信息已做脱敏处理
-- 仅供参考，不构成法律建议
-- 如遇诈骗请立即报警
+- 案例会尽量保留教育价值，同时删除个人隐私信息
+- 如遇正在发生的诈骗，请优先报警或联系 `96110`

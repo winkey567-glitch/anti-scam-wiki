@@ -1,0 +1,11 @@
+#!/bin/sh
+
+remote="${AUTO_PUSH_REMOTE:-origin}"
+branch="$(git symbolic-ref --quiet --short HEAD 2>/dev/null)" || exit 0
+
+if ! git config --get "remote.${remote}.url" >/dev/null 2>&1; then
+  exit 0
+fi
+
+echo "Auto-pushing ${branch} to ${remote}..."
+git push "$remote" "$branch"

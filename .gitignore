@@ -1,0 +1,12 @@
+node_modules/
+docs/.vitepress/dist/
+
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
+!.env.example
+
+data/raw/*.json
+data/processed/*.json
