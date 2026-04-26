@@ -1,4 +1,5 @@
 <script setup>
+import { withBase } from 'vitepress'
 import cases from '../../../../data/published/cases.json'
 
 const fallbackCases = [
@@ -9,7 +10,7 @@ const fallbackCases = [
     summary: '骗子以“保本高收益”为诱饵，引导老人投资虚假理财产品，最终无法提现。',
     meta: '场景库案例',
     date: '持续更新',
-    href: '/scenarios/investment'
+    href: withBase('/scenarios/investment')
   },
   {
     id: 'fallback-police',
@@ -18,7 +19,7 @@ const fallbackCases = [
     summary: '骗子冒充警察，称老人涉嫌洗钱，要求配合调查并转账到“安全账户”。',
     meta: '高风险预警',
     date: '持续更新',
-    href: '/scenarios/fake-police'
+    href: withBase('/scenarios/fake-police')
   },
   {
     id: 'fallback-health',
@@ -27,7 +28,7 @@ const fallbackCases = [
     summary: '以免费体检、赠送礼品为名，诱导老人购买高价保健品，骗取养老金。',
     meta: '常见套路',
     date: '持续更新',
-    href: '/scenarios/health-products'
+    href: withBase('/scenarios/health-products')
   }
 ]
 
@@ -42,7 +43,7 @@ const realCases = Array.isArray(cases)
         summary: item.summary || '暂无摘要。',
         meta: item.source_name || '公开来源',
         date: item.crawled_at ? item.crawled_at.slice(0, 10) : '最近更新',
-        href: `/cases/generated/${item.id}`
+        href: withBase(`/cases/generated/${item.id}`)
       }))
   : []
 
@@ -52,28 +53,28 @@ const quickLinks = [
   {
     title: '应急处理指南',
     description: '如果家人正在被骗',
-    href: '/emergency',
+    href: withBase('/emergency'),
     accent: 'blue',
     icon: '🚨'
   },
   {
     title: '测一测父母类型',
     description: '了解父母特点与风险',
-    href: '/quiz',
+    href: withBase('/quiz'),
     accent: 'green',
     icon: '👥'
   },
   {
     title: '浏览诈骗案例',
     description: '最新案例与套路解析',
-    href: '/cases/latest',
+    href: withBase('/cases/latest'),
     accent: 'orange',
     icon: '📂'
   },
   {
     title: '人群分类指南',
     description: '针对性防骗建议',
-    href: '/profiles/',
+    href: withBase('/profiles/'),
     accent: 'purple',
     icon: '📘'
   }
@@ -163,7 +164,7 @@ const emergencySteps = [
       <div class="home-page__cases">
         <div class="home-page__section-head">
           <h2>最新案例</h2>
-          <a href="/cases/latest">查看更多案例 ›</a>
+          <a :href="withBase('/cases/latest')">查看更多案例 ›</a>
         </div>
 
         <div class="home-page__case-grid">
@@ -198,7 +199,7 @@ const emergencySteps = [
           </li>
         </ol>
 
-        <a href="/emergency" class="home-page__emergency-button">立即查看完整处理指南</a>
+        <a :href="withBase('/emergency')" class="home-page__emergency-button">立即查看完整处理指南</a>
         <p class="home-page__emergency-tip">如情况紧急，请第一时间报警，争取挽回损失。</p>
       </aside>
     </section>
