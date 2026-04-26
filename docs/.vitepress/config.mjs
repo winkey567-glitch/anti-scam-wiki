@@ -2,17 +2,15 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: '老年人防诈骗 Wiki',
-  description: '面向子女的老年人防诈骗知识库',
+  description: '面向子女的老年人防诈骗知识库与家庭应急手册',
   base: '/anti-scam-wiki/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '应急SOP', link: '/emergency' },
-      { text: '人群测试', link: '/quiz' },
       { text: '诈骗场景', link: '/scenarios/' },
       { text: '人群分类', link: '/profiles/' },
       { text: '案例库', link: '/cases/' },
-      { text: '指南', link: '/guide/' }
+      { text: '指南', link: '/guide/checklist' }
     ],
     sidebar: {
       '/scenarios/': [
@@ -42,13 +40,18 @@ export default defineConfig({
         { text: '沟通话术', link: '/guide/communication' },
         { text: '情绪支持', link: '/guide/emotional' },
         { text: '家庭清单', link: '/guide/checklist' }
+      ],
+      '/cases/': [
+        { text: '案例库说明', link: '/cases/' },
+        { text: '最新案例', link: '/cases/latest' },
+        { text: '自动生成索引', link: '/cases/generated/' }
       ]
     },
     search: {
       provider: 'local'
     },
     footer: {
-      message: '本站信息仅供预防参考，如遇诈骗请拨打 96110',
+      message: '本站信息仅供反诈预防参考，如遇诈骗请第一时间拨打 96110 或 110',
       copyright: 'Copyright © 2026 Anti-Scam Wiki Contributors'
     }
   }
