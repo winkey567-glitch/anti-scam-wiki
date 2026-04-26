@@ -1,0 +1,38 @@
+name: 内容修正
+description: 反馈案例、指南、场景页中的事实错误、用词问题或链接问题
+title: "[Content] "
+labels:
+  - content
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎补充更准确的公开信息来源。请避免提交未经核实的传闻内容。
+  - type: input
+    id: page
+    attributes:
+      label: 对应页面
+      placeholder: 例如：/scenarios/fake-police 或 /cases/generated/20f3c2f5
+    validations:
+      required: true
+  - type: textarea
+    id: wrong_content
+    attributes:
+      label: 需要修正的内容
+      placeholder: 哪一句、哪一段、哪个结论有问题
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议改成什么
+      placeholder: 请直接写建议文本，越具体越好
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 公开可核实来源
+      description: 请尽量附上公开链接或正式来源名称
+      placeholder: 例如：某公安局公告、政府公开文章、官方平台说明
+

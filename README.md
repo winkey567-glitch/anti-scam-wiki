@@ -16,13 +16,16 @@
 - 人群测试：帮助判断父母更容易被哪类骗局影响
 - 诈骗场景库：整理常见诈骗套路、危险信号和应对方式
 - 人群分类指南：按性格和习惯给出针对性建议
-- 家庭防御清单：适合打印后给家人使用
+- 家庭防骗清单：适合打印后给家人使用
+- 案例库：按时间、热度、区域查看真实公开案例
+- 趋势研判：自动生成诈骗趋势、区域预警和嫌疑人范围研判
+- 报案材料整理：把线索快速整理成给警方的报案草稿
 
 ## 技术栈
 
 - 前端文档站：VitePress
 - 数据抓取：Python + requests + BeautifulSoup
-- AI 提取：Gemini API
+- 结构化提取：规则优先，可选 AI 辅助
 - 部署：GitHub Pages + GitHub Actions
 
 ## 本地开发
@@ -30,7 +33,7 @@
 建议使用 Node.js 20 或更高版本。
 
 ```bash
-git clone https://github.com/your-username/anti-scam-wiki.git
+git clone https://github.com/winkey567-glitch/anti-scam-wiki.git
 cd anti-scam-wiki
 npm install
 npm run docs:dev
@@ -42,24 +45,19 @@ npm run docs:dev
 npm run check
 ```
 
-## 自动推送到 GitHub
-
-如果你希望本机在每次 `git commit` 后自动推送到 GitHub，可以执行：
+如果涉及 Python 抓取脚本：
 
 ```bash
-powershell -ExecutionPolicy Bypass -File scripts/setup-git-hooks.ps1
+python -m compileall scripts
+python scripts/process.py
 ```
 
-启用后，本地每次提交都会自动执行一次：
+## 自动发布
 
-```bash
-git push origin 当前分支
-```
+仓库内置了一条一键发布脚本：
 
-项目还内置了一个一键发布脚本：
-
-```bash
-powershell -ExecutionPolicy Bypass -File scripts/publish.ps1 -Message "更新说明"
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\publish.ps1 -Message "更新说明"
 ```
 
 这条命令会自动完成：
@@ -67,58 +65,52 @@ powershell -ExecutionPolicy Bypass -File scripts/publish.ps1 -Message "更新说
 - `npm run check`
 - `git add -A`
 - `git commit -m "..."`
-- `git push origin 当前分支`（由 `post-commit` 钩子自动执行）
-
-## 数据抓取
-
-```bash
-pip install -r requirements.txt
-export GOOGLE_API_KEY="your-api-key"
-python scripts/process.py
-```
-
-如果没有配置 `GOOGLE_API_KEY`，AI 提取模块会退回到模板化输出，方便先跑通流程。
+- `git push origin 当前分支`
 
 ## 项目结构
 
 ```text
 anti-scam-wiki/
-├── docs/                   # VitePress 站点内容
-│   ├── .vitepress/         # 站点配置
-│   ├── scenarios/          # 诈骗场景
-│   ├── profiles/           # 人群分类
-│   ├── cases/              # 案例库
-│   └── guide/              # 指南内容
-├── scripts/                # 抓取与处理脚本
-│   ├── crawl/              # 数据源抓取
-│   └── ai/                 # AI 提取逻辑
-├── data/                   # 抓取结果与发布数据
-└── .github/workflows/      # 自动部署与定时任务
+├─ docs/                   # VitePress 站点内容
+│  ├─ .vitepress/          # 站点配置与主题组件
+│  ├─ scenarios/           # 诈骗场景
+│  ├─ profiles/            # 人群分类
+│  ├─ cases/               # 案例库
+│  ├─ insights/            # 趋势与区域预警
+│  └─ guide/               # 指南与报案整理工具
+├─ scripts/                # 抓取、分析、生成脚本
+├─ data/                   # 原始抓取结果与发布数据
+└─ .github/workflows/      # 部署与定时任务
 ```
 
 ## 开源协作
 
 欢迎以低负担方式参与：
 
-- 提交真实案例或补充公开案例
-- 修正文案、错别字、链接和流程说明
-- 改进抓取脚本和发布流程
-- 增加更适合老人家庭使用的内容
+- 提交公开可核实案例
+- 修正文案、错别字、失效链接
+- 改进抓取脚本和构建流程
+- 增加更适合老年人家庭使用的内容
 
-## 运行原则
+协作说明见：[CONTRIBUTING.md](/G:/anti-scam-wiki/CONTRIBUTING.md)
 
-这个项目优先追求：
+## 最小安全配置
 
-1. 内容清晰
-2. 构建稳定
-3. 易于部署
-4. 低维护成本
+这个项目建议保持“公开可读、少数人可写”的模式：
 
-不追求复杂功能，不引入重型后台，不把维护门槛抬高。
+- 保护 `main` 分支，只通过 PR 合并
+- 开启构建检查后再允许合并
+- 不在仓库和页面里存放真实隐私信息
+- 自动抓取结果视为待审核内容，不直接当作官方结论
+- 报案整理工具仅做本地整理与复制，不做服务端收集
 
-## 免责声明
+完整说明见：[SECURITY.md](/G:/anti-scam-wiki/SECURITY.md)
 
-本站内容仅供反诈预防参考，不构成官方建议或法律意见。如遇诈骗，请第一时间联系：
+## 免责说明
+
+本站内容仅供反诈预防参考，不构成官方建议、法律意见或警方结论。
+
+如遇诈骗，请第一时间联系：
 
 - `96110` 反诈专线
 - `110` 报警电话

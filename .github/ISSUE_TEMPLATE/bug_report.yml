@@ -1,0 +1,42 @@
+name: 问题反馈
+description: 反馈页面错误、失效链接、构建异常或站内功能问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请不要在这里直接贴出身份证号、完整手机号、完整银行卡号、验证码等敏感信息。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 清楚说明哪里有问题，实际看到的现象是什么
+      placeholder: 例如：首页搜索入口太小，移动端点击不方便
+    validations:
+      required: true
+  - type: textarea
+    id: path
+    attributes:
+      label: 页面或文件位置
+      description: 尽量提供页面链接、路径或截图说明
+      placeholder: 例如：/cases/latest 或 docs/.vitepress/theme/components/HomePage.vue
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现方式
+      description: 按步骤说明怎么触发
+      placeholder: |
+        1. 打开首页
+        2. 点击搜索
+        3. 输入关键词
+        4. 看到……
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息
+      description: 可补充设备、浏览器、截图等
+
