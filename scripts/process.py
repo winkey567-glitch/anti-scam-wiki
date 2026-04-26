@@ -113,6 +113,26 @@ def merge_cases(existing_cases: list[dict], processed_cases: list[dict]) -> tupl
     return ordered, inserted, updated
 
 
+def normalize_cases(cases: list[dict]) -> list[dict]:
+    """Remove obviously broken records and de-duplicate by identity."""
+    cleaned: list[dict] = []
+    seen: set[str] = set()
+
+    for case in cases:
+        title = (case.get("title") or "").strip()
+        if title in {"", "诈骗", "案例"}:
+            continue
+
+        identity = case_identity(case)
+        if identity in seen:
+            continue
+
+        seen.add(identity)
+        cleaned.append(case)
+
+    return cleaned
+
+
 def main() -> None:
     """Run fetch, structure, merge, and publish."""
     print("开始抓取诈骗案例数据...")
@@ -147,6 +167,7 @@ def main() -> None:
     cases_file = PUBLISHED_DIR / "cases.json"
     existing_cases = load_existing_cases(cases_file)
     all_cases, inserted, updated = merge_cases(existing_cases, processed_cases)
+    all_cases = normalize_cases(all_cases)
 
     print(f"新增 {inserted} 条案例。")
     print(f"刷新 {updated} 条已有案例。")
