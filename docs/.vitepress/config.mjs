@@ -10,7 +10,8 @@ export default defineConfig({
       { text: '诈骗场景', link: '/scenarios/' },
       { text: '人群分类', link: '/profiles/' },
       { text: '案例库', link: '/cases/' },
-      { text: '指南', link: '/guide/checklist' }
+      { text: '趋势研判', link: '/insights/' },
+      { text: '指南', link: '/guide/' }
     ],
     sidebar: {
       '/scenarios/': [
@@ -18,11 +19,14 @@ export default defineConfig({
         { text: '冒充客服退款', link: '/scenarios/fake-customer-service' },
         { text: '冒充公检法', link: '/scenarios/fake-police' },
         { text: '保健品诈骗', link: '/scenarios/health-products' },
-        { text: '中奖/免费送礼', link: '/scenarios/free-gift' },
+        { text: '中奖 / 免费送礼', link: '/scenarios/free-gift' },
+        { text: '虚假购物服务', link: '/scenarios/fake-shopping-service' },
         { text: '养老投资', link: '/scenarios/investment' },
         { text: '情感诈骗', link: '/scenarios/romance' },
+        { text: '短视频代运营', link: '/scenarios/short-video-ops' },
         { text: '旅游团购', link: '/scenarios/travel' },
-        { text: 'AI换脸', link: '/scenarios/ai-face' },
+        { text: '机票退改签', link: '/scenarios/ticket-change' },
+        { text: 'AI 换脸', link: '/scenarios/ai-face' },
         { text: '假冒熟人', link: '/scenarios/fake-friend' },
         { text: '刷单返利', link: '/scenarios/brushing' }
       ],
@@ -37,14 +41,25 @@ export default defineConfig({
         { text: '技术懵懂型', link: '/profiles/tech-illiterate' }
       ],
       '/guide/': [
+        { text: '指南中心', link: '/guide/' },
         { text: '沟通话术', link: '/guide/communication' },
         { text: '情绪支持', link: '/guide/emotional' },
-        { text: '家庭清单', link: '/guide/checklist' }
+        { text: '家庭清单', link: '/guide/checklist' },
+        { text: '报案材料整理', link: '/guide/report-helper' },
+        { text: '常见问题', link: '/guide/faq' }
       ],
       '/cases/': [
         { text: '案例库说明', link: '/cases/' },
         { text: '最新案例', link: '/cases/latest' },
+        { text: '按时间查看', link: '/cases/by-time' },
+        { text: '按热度查看', link: '/cases/by-heat' },
+        { text: '按区域查看', link: '/cases/by-region' },
         { text: '自动生成索引', link: '/cases/generated/' }
+      ],
+      '/insights/': [
+        { text: '趋势研判中心', link: '/insights/' },
+        { text: '诈骗趋势分析', link: '/insights/trends' },
+        { text: '区域预警', link: '/insights/regions' }
       ]
     },
     search: {

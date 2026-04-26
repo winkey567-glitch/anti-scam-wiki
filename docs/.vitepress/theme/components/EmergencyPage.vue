@@ -1,4 +1,6 @@
 <script setup>
+import { withBase } from 'vitepress'
+
 const steps = [
   {
     title: '立即联系本人',
@@ -78,7 +80,7 @@ const calls = [
     <section class="card-block">
       <div class="section-head">
         <h2>5 步急救流程</h2>
-        <a href="/guide/communication">查看沟通话术 ›</a>
+        <a :href="withBase('/guide/communication')">查看沟通话术 ›</a>
       </div>
       <div class="step-grid">
         <article v-for="(step, index) in steps" :key="step.title" class="step-card">
@@ -112,7 +114,7 @@ const calls = [
             <span>{{ label }}</span>
           </div>
         </div>
-        <a class="primary-button" href="/guide/checklist">顺手检查家庭防骗配置</a>
+        <a class="primary-button" :href="withBase('/guide/checklist')">顺手检查家庭防骗配置</a>
       </div>
     </section>
   </div>

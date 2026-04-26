@@ -129,6 +129,50 @@ HEURISTICS = [
         "psychological_trap": "利用对福利机会的期待和信息差",
     },
     {
+        "match": ["军官", "寄送包裹", "关税", "网恋对象", "恋爱关系", "贴心男友"],
+        "scam_type": "婚恋交友诈骗",
+        "scenario": "情感关系诱导转账",
+        "target_group": ["单身人群", "孤独空巢型"],
+        "key_phrases": ["我对你是真心的", "包裹被扣需要交税", "先帮我周转一下"],
+        "red_flags": ["短时间建立亲密关系", "很快开始谈钱", "以包裹、就医或困难为由索要转账"],
+        "counter_measures": ["陌生关系涉及金钱一律先停", "先核实真实身份和现实关系", "与家人沟通后再决定"],
+        "emergency_actions": ["停止继续付款", "保留聊天和账户信息", "及时报警"],
+        "psychological_trap": "利用情感依赖和同情心理",
+    },
+    {
+        "match": ["演唱会", "内部门票", "私下转账", "代购", "特殊服务"],
+        "scam_type": "虚假购物服务诈骗",
+        "scenario": "脱离平台私下交易",
+        "target_group": ["网购人群", "热衷抢票和代购的人群"],
+        "key_phrases": ["内部渠道更便宜", "私下转账省手续费", "下单后马上帮你处理"],
+        "red_flags": ["要求脱离平台私聊", "承诺特殊渠道或内部票", "要求直接转到个人账户"],
+        "counter_measures": ["交易只走官方平台", "不信低价内部渠道", "不为抢票代购私下转账"],
+        "emergency_actions": ["停止继续支付", "保留聊天和订单信息", "联系平台和警方"],
+        "psychological_trap": "利用稀缺感和捡漏心理",
+    },
+    {
+        "match": ["航班", "改签", "航空公司客服", "机票", "退改签"],
+        "scam_type": "机票退改签诈骗",
+        "scenario": "假客服退改签 / 理赔",
+        "target_group": ["出行人群", "技术懵懂型"],
+        "key_phrases": ["航班取消需要改签", "马上办理赔付", "下载软件处理退改签"],
+        "red_flags": ["陌生来电主动赔付", "要求下载会议或控制软件", "引导共享屏幕或转账验证"],
+        "counter_measures": ["只通过航空公司官方渠道改签", "不下载陌生软件", "不提供验证码和银行卡信息"],
+        "emergency_actions": ["立刻停止操作", "联系银行止付", "保存通话和订单信息报警"],
+        "psychological_trap": "利用行程受影响的焦虑和急迫心理",
+    },
+    {
+        "match": ["增加人气", "搭建账号", "无界趣连", "直播时"],
+        "scam_type": "短视频代运营诈骗",
+        "scenario": "账号运营 / 引流服务骗局",
+        "target_group": ["小商户", "短视频用户"],
+        "key_phrases": ["帮你涨粉引流", "付费搭建账号", "远程指导就能变现"],
+        "red_flags": ["先收费后服务", "要求下载远程工具或陌生软件", "承诺快速涨粉变现"],
+        "counter_measures": ["账号运营服务只走正规平台", "不轻信私信代运营承诺", "不安装远程控制软件"],
+        "emergency_actions": ["停止转账", "保存聊天和软件信息", "修改账户密码并报警"],
+        "psychological_trap": "利用急于获客和快速变现心理",
+    },
+    {
         "match": ["贷款", "额度高", "利息低", "银保监会账户", "申请贷款"],
         "scam_type": "贷款诈骗",
         "scenario": "仿冒贷款平台",
@@ -211,6 +255,18 @@ HEURISTICS = [
 def detect_heuristic(title: str, content: str) -> dict:
     """Return a rule-based fallback classification."""
     text = f"{title}\n{content}"
+
+    title_overrides = [
+        (["投资", "理财", "炒股", "证券"], "投资理财诈骗"),
+        (["婚恋", "恋爱"], "婚恋交友诈骗"),
+        (["机票", "退改签", "航班"], "机票退改签诈骗"),
+    ]
+    for keywords, scam_type in title_overrides:
+        if any(keyword in title for keyword in keywords):
+            for item in HEURISTICS:
+                if item["scam_type"] == scam_type:
+                    return item
+
     for item in HEURISTICS:
         if any(keyword in text for keyword in item["match"]):
             return item

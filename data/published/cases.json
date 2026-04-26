@@ -1,54 +1,219 @@
 [
   {
-    "id": "9ba3a67b",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
+    "id": "b1c63e26",
+    "source_url": "https://gaj.tl.gov.cn/tlsgaj/c00060/pc/content/content_1976830486581665792.html",
+    "source_name": "铜陵市公安局",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.032284",
-    "processed_at": "2026-04-26T20:54:40.036782",
+    "crawled_at": "2026-04-26T23:17:26.524681",
+    "processed_at": "2026-04-26T23:17:28.420963",
     "status": "pending_review",
     "content_lifecycle": "new",
-    "title": "网络游戏产品虚假交易诈骗",
-    "summary": "核心套路：在游戏内或社交平台发布低价出售游戏账号、装备、点卡广告，诱导受害人脱离官方平台交易；或冒充客服以“解冻账户”、“缴纳保证金”等名义诈骗。\n\n警示案例：中学生小赵欲购买“限量皮肤”，在非官方平...",
-    "scam_type": "游戏交易诈骗",
-    "scenario": "非官方游戏道具交易",
+    "title": "伪造炒股软件诈骗",
+    "summary": "2025年9月30日，铜陵市民王某在使用某短视频软件时刷到推荐股票投资视频，点击视频联系对方后，下载了安迅通-企业版、\n华彩人生专业版等伪造炒股软件\n，按客服指令扫二维码转账，后发现被骗，\n共计\n损失...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
     "target_group": [
-      "未成年人家庭",
-      "游戏用户"
+      "盲目投资型",
+      "有积蓄的老年人"
     ],
     "key_phrases": [
-      "免费送装备",
-      "低价卖皮肤账号",
-      "账户冻结需充值解冻"
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
     ],
     "red_flags": [
-      "脱离官方平台交易",
-      "要求用家长手机操作",
-      "以解冻保证金名义收费"
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
     ],
     "counter_measures": [
-      "只走官方交易渠道",
-      "家长设备不交给孩子处理陌生活动",
-      "拒绝任何先充值解冻要求"
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
     ],
     "emergency_actions": [
-      "解绑银行卡或止付",
-      "保留聊天和支付记录",
-      "及时报警"
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
     ],
-    "psychological_trap": "利用免费获得和低价捡漏心理"
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "铜陵市",
+    "source_year": 2025,
+    "incident_date": "2025-09-30",
+    "incident_month": "2025-09",
+    "region": "铜陵市",
+    "loss_amount_cny": 90000.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "2025年9月30日，铜陵市民王某在使用某短视频软件时刷到推荐股票投资视频，点击视频联系对方后，下载了安迅通-企业版、\n华彩人生专业版等伪造炒股软件\n，按客服指令扫二维码转账，后发现被骗，\n共计\n损失90000元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
   },
   {
-    "id": "880208d7",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
+    "id": "aa67c5b6",
+    "source_url": "https://gaj.tl.gov.cn/tlsgaj/c00060/pc/content/content_1976830486581665792.html",
+    "source_name": "铜陵市公安局",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.032224",
-    "processed_at": "2026-04-26T20:54:40.036759",
+    "crawled_at": "2026-04-26T23:17:26.524649",
+    "processed_at": "2026-04-26T23:17:28.420908",
     "status": "pending_review",
     "content_lifecycle": "new",
-    "title": "冒充领导/熟人诈骗",
-    "summary": "核心套路：盗用领导、熟人微信/QQ头像、昵称，或使用AI换脸、拟声技术伪造视频/语音，以“项目款急用”、“帮领导转账”等为由，诱骗财务人员或普通员工转账。\n\n警示案例：某公司财务林女士收到“董事长”微...",
+    "title": "刷单返利诈骗",
+    "summary": "2025年9月22日，铜陵市民张某被网友添加其支付宝好友后进入一群聊，群内发布刷单任务后，张某下载“金逸传媒”App并根据客服指导先后刷单6256元，后发现被骗，共计损失6000元。",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "铜陵市",
+    "source_year": 2025,
+    "incident_date": "2025-09-22",
+    "incident_month": "2025-09",
+    "region": "铜陵市",
+    "loss_amount_cny": 6256.0,
+    "heat_score": 53,
+    "heat_level": "关注",
+    "raw_content": "2025年9月22日，铜陵市民张某被网友添加其支付宝好友后进入一群聊，群内发布刷单任务后，张某下载“金逸传媒”App并根据客服指导先后刷单6256元，后发现被骗，共计损失6000元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "39f49129",
+    "source_url": "https://gaj.tl.gov.cn/tlsgaj/c00060/pc/content/content_1976830486581665792.html",
+    "source_name": "铜陵市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:26.524703",
+    "processed_at": "2026-04-26T23:17:28.421045",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "短视频代运营诈骗",
+    "summary": "2025年9月15日，\n铜陵市民李某在短视频平台\n直播时，有人联系称可帮助搭建账号、增加人气和关注量，随后\n李某按\n对方要求，下载“无界趣连”并转账支付费用，后发现被骗，共计损失4000元。\n目前\n以...",
+    "scam_type": "短视频代运营诈骗",
+    "scenario": "账号运营 / 引流服务骗局",
+    "target_group": [
+      "小商户",
+      "短视频用户"
+    ],
+    "key_phrases": [
+      "帮你涨粉引流",
+      "付费搭建账号",
+      "远程指导就能变现"
+    ],
+    "red_flags": [
+      "先收费后服务",
+      "要求下载远程工具或陌生软件",
+      "承诺快速涨粉变现"
+    ],
+    "counter_measures": [
+      "账号运营服务只走正规平台",
+      "不轻信私信代运营承诺",
+      "不安装远程控制软件"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "保存聊天和软件信息",
+      "修改账户密码并报警"
+    ],
+    "psychological_trap": "利用急于获客和快速变现心理",
+    "source_region": "铜陵市",
+    "source_year": 2025,
+    "incident_date": "2025-09-15",
+    "incident_month": "2025-09",
+    "region": "铜陵市",
+    "loss_amount_cny": 4000.0,
+    "heat_score": 45,
+    "heat_level": "关注",
+    "raw_content": "2025年9月15日，\n铜陵市民李某在短视频平台\n直播时，有人联系称可帮助搭建账号、增加人气和关注量，随后\n李某按\n对方要求，下载“无界趣连”并转账支付费用，后发现被骗，共计损失4000元。\n目前\n以上案件正在进一步侦办中",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：短视频平台"
+  },
+  {
+    "id": "20f3c2f5",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.401047",
+    "processed_at": "2026-04-26T23:17:28.421946",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "机票退改签诈骗",
+    "summary": "该类手法主要针对购买机票的群体。诈骗分子非法获取受害人航班信息后，冒充航空公司客服，谎称受害人航班延误或取消，并承诺赔偿，诱导其下载指定软件或登录虚假网站，通过屏幕共享远程控制等方式转走受害人手机银行...",
+    "scam_type": "机票退改签诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-07-01",
+    "incident_month": "2025-07",
+    "region": "重庆市",
+    "loss_amount_cny": 69000.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "该类手法主要针对购买机票的群体。诈骗分子非法获取受害人航班信息后，冒充航空公司客服，谎称受害人航班延误或取消，并承诺赔偿，诱导其下载指定软件或登录虚假网站，通过屏幕共享远程控制等方式转走受害人手机银行账户内资金。如今年\n1月，大学生李某接到“00”开头的境外诈骗电话，被自称航空公司客服的诈骗分子，以飞机故障需要改签为由，引导其下载视频会议软件，通过屏幕共享控制手机，被转走6.9万元。",
+    "suspect_region_scope": "疑似境外或境外协同网络团伙",
+    "suspect_region_confidence": "中",
+    "suspect_region_basis": "案情提到：境外"
+  },
+  {
+    "id": "53a6fd76",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.401007",
+    "processed_at": "2026-04-26T23:17:28.421799",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充领导、熟人诈骗",
+    "summary": "该类手法主要针对机关企事业单位人员、学生家长等群体。\n诈骗分子冒充受害人的熟人或领导，对其嘘寒问暖或发出指令，以支付货款或代为转账等名义，骗取受害人钱财。如今年\n5月，周某收到其“战友”的微博信息，以...",
     "scam_type": "冒充领导 / 熟人诈骗",
     "scenario": "熟人身份伪装转账",
     "target_group": [
@@ -75,331 +240,133 @@
       "同步通知公司和警方",
       "保留聊天和转账证据"
     ],
-    "psychological_trap": "利用权威服从和熟人信任心理"
+    "psychological_trap": "利用权威服从和熟人信任心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-07-01",
+    "incident_month": "2025-07",
+    "region": "重庆市",
+    "loss_amount_cny": 44000.0,
+    "heat_score": 51,
+    "heat_level": "关注",
+    "raw_content": "该类手法主要针对机关企事业单位人员、学生家长等群体。\n诈骗分子冒充受害人的熟人或领导，对其嘘寒问暖或发出指令，以支付货款或代为转账等名义，骗取受害人钱财。如今年\n5月，周某收到其“战友”的微博信息，以帮忙支付货款为由，被骗转账4.4万元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向重庆市外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
   },
   {
-    "id": "b7b295b6",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
+    "id": "c87bb5ce",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.032160",
-    "processed_at": "2026-04-26T20:54:40.036737",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "裸聊敲诈诈骗",
-    "summary": "核心套路：通过社交软件诱导受害人视频裸聊并录制不雅视频，同时窃取手机通讯录，以向亲友群发视频为要挟，逼迫受害人转账。\n\n警示案例：公司职员吴先生深夜在陌生社交APP上被“美女”搭讪，短暂视频裸聊后被对...",
-    "scam_type": "色情服务 / 裸聊敲诈诈骗",
-    "scenario": "交友诱导和敲诈转账",
-    "target_group": [
-      "独居人群",
-      "情感空虚人群"
-    ],
-    "key_phrases": [
-      "免费上门服务",
-      "完成任务后安排见面",
-      "不给钱就曝光"
-    ],
-    "red_flags": [
-      "陌生交友 App 主动露骨聊天",
-      "以任务名义要求转账",
-      "威胁曝光或失联"
-    ],
-    "counter_measures": [
-      "不安装陌生交友软件",
-      "不参与任何色情服务交易",
-      "遭遇威胁先报警不转账"
-    ],
-    "emergency_actions": [
-      "停止继续付款",
-      "保存聊天截图",
-      "尽快报警求助"
-    ],
-    "psychological_trap": "利用好奇心、羞耻感和害怕曝光心理"
-  },
-  {
-    "id": "b100b828",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.032104",
-    "processed_at": "2026-04-26T20:54:40.036719",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "注销校园贷/调整征信诈骗",
-    "summary": "核心套路：冒充金融平台、银行或监管部门客服，谎称受害人有过“校园贷”记录需注销，或声称征信不良可帮忙修复，诱导其到网贷平台借款并转入“安全账户”进行“资金清算”。\n\n警示案例：刚毕业的小刘接到“银监会...",
-    "scam_type": "征信修复 / 校园贷诈骗",
-    "scenario": "虚假征信消除",
-    "target_group": [
-      "技术懵懂型",
-      "容易焦虑的人群"
-    ],
-    "key_phrases": [
-      "帮你消除记录",
-      "否则影响征信",
-      "需要先借款转到指定账户"
-    ],
-    "red_flags": [
-      "能准确说出个人信息",
-      "以征信为由施压",
-      "要求多平台借款后转账"
-    ],
-    "counter_measures": [
-      "征信问题只通过官方渠道处理",
-      "不按电话指示借款转账",
-      "先联系家人核实"
-    ],
-    "emergency_actions": [
-      "停止借款和转账",
-      "联系贷款平台和银行",
-      "保存通话证据报警"
-    ],
-    "psychological_trap": "利用对征信影响的恐惧心理"
-  },
-  {
-    "id": "938bd039",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.032042",
-    "processed_at": "2026-04-26T20:54:40.036704",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "虚假网络贷款诈骗",
-    "summary": "核心套路：以“无抵押、低利息、秒放款”为噱头吸引受害人，后以“银行卡号错误需解冻”、“刷流水验资”、“缴纳保证金”等名义要求转账，不放款仍持续索要费用。\n\n警示案例：个体商户张先生因急需资金周转，在网...",
-    "scam_type": "贷款诈骗",
-    "scenario": "仿冒贷款平台",
-    "target_group": [
-      "技术懵懂型",
-      "急需资金的人群"
-    ],
-    "key_phrases": [
-      "额度高利息低",
-      "先转账验证账户",
-      "解冻后即可放款"
-    ],
-    "red_flags": [
-      "要求先转账再放款",
-      "下载仿冒贷款 App",
-      "转入所谓监管账户"
-    ],
-    "counter_measures": [
-      "正规贷款不会先收费",
-      "贷款只走持牌平台",
-      "不向陌生账户做验证转账"
-    ],
-    "emergency_actions": [
-      "立刻停止转账",
-      "联系银行止付",
-      "保存 App 和转账信息报警"
-    ],
-    "psychological_trap": "利用资金焦虑和低息诱惑心理"
-  },
-  {
-    "id": "7efb13ca",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.031977",
-    "processed_at": "2026-04-26T20:54:40.036677",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "冒充电商物流客服诈骗",
-    "summary": "核心套路：冒充电商平台、快递公司客服，谎称商品质量问题、快递丢失或误开通会员/服务，以“退款理赔”、“取消扣费”为由，诱导受害人下载屏幕共享软件或点击钓鱼链接，窃取账户密码、验证码盗转资金。\n\n警示案...",
-    "scam_type": "冒充客服退款诈骗",
-    "scenario": "平台扣费 / 退款取消",
-    "target_group": [
-      "技术懵懂型",
-      "网购老人"
-    ],
-    "key_phrases": [
-      "不取消就会自动扣费",
-      "需要下载软件处理",
-      "需要共享屏幕或提供验证码"
-    ],
-    "red_flags": [
-      "主动来电处理退款",
-      "要求下载陌生 App",
-      "要求共享屏幕或验证码"
-    ],
-    "counter_measures": [
-      "只在官方 App 内处理退款",
-      "不下载陌生软件",
-      "验证码绝不外泄"
-    ],
-    "emergency_actions": [
-      "立刻停止操作",
-      "联系银行止付",
-      "保留聊天和转账证据"
-    ],
-    "psychological_trap": "利用害怕扣费和急于退款的心理"
-  },
-  {
-    "id": "51b06c71",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.031903",
-    "processed_at": "2026-04-26T20:54:40.036636",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "虚假投资理财诈骗",
-    "summary": "核心套路：打造虚假“成功人士”人设，通过婚恋交友或社交平台建立情感信任，诱导受害人在虚假平台进行“投资”（股票、期货、虚拟货币等），初期或允以小利，最终卷款消失。\n\n警示案例：杭州退休教师李阿姨在某社...",
-    "scam_type": "投资理财诈骗",
-    "scenario": "虚假投资平台",
-    "target_group": [
-      "盲目投资型",
-      "有积蓄的老人"
-    ],
-    "key_phrases": [
-      "内幕消息",
-      "稳赚高收益",
-      "缴纳保证金后即可提现"
-    ],
-    "red_flags": [
-      "高收益低风险",
-      "先小额盈利后诱导加码",
-      "提现时不断加收费用"
-    ],
-    "counter_measures": [
-      "投资前核实平台资质",
-      "高收益默认高风险",
-      "大额投资先与家人确认"
-    ],
-    "emergency_actions": [
-      "停止继续投入",
-      "保存平台和转账记录",
-      "立即报警"
-    ],
-    "psychological_trap": "利用快速获利和沉没成本心理"
-  },
-  {
-    "id": "623033f6",
-    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
-    "source_name": "华容县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:40.031813",
-    "processed_at": "2026-04-26T20:54:40.036592",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "刷单返利诈骗",
-    "summary": "核心套路：以“轻松赚钱”、“日结高薪”为诱饵，先施以小利骗取信任，后诱导垫付大额资金进行“任务”，最终以各种理由拒绝返款并拉黑消失。\n\n警示案例：深圳某公司职员小王，被“短视频点赞赚钱”广告吸引，初尝...",
-    "scam_type": "刷单返利诈骗",
-    "scenario": "垫资返利陷阱",
-    "target_group": [
-      "贪小便宜型",
-      "想做兼职补贴家用的人群"
-    ],
-    "key_phrases": [
-      "动动手指就能赚钱",
-      "先垫资后返现",
-      "再做一单就能提现"
-    ],
-    "red_flags": [
-      "先返小钱建立信任",
-      "金额越来越大",
-      "提现被卡住要求继续补钱"
-    ],
-    "counter_measures": [
-      "任何先垫资兼职都不参与",
-      "不要继续补钱",
-      "保留聊天和支付记录"
-    ],
-    "emergency_actions": [
-      "停止转账",
-      "联系平台和银行",
-      "尽快报警"
-    ],
-    "psychological_trap": "利用小利诱惑和回本执念"
-  },
-  {
-    "id": "ef955113",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151775",
-    "processed_at": "2026-04-26T20:54:40.036560",
+    "crawled_at": "2026-04-26T23:17:27.400973",
+    "processed_at": "2026-04-26T23:17:28.421679",
     "status": "pending_review",
     "content_lifecycle": "new",
     "title": "冒充公检法诈骗",
-    "summary": "2025\n年\n3\n月\n27\n日，商水县城关乡某村，一名正在读小学的女孩\n和某某\n在家玩手机快手时，\n收到一位自称\n周口公安人员的好友请求。添加为好友后，对方称接到举报，\n和某某\n的账号涉嫌诈骗，要求其...",
+    "summary": "该类手法主要针对中老年女性群体。诈骗分子首先通过电话冒充公检法工作人员，谎称受害人涉嫌犯罪，造成恐慌，随后展示虚假法律文书，胁迫其配合\n“调查”，并以保持通话的方式阻断受害人与外界电话联系，诱骗受害人...",
     "scam_type": "冒充公检法诈骗",
-    "scenario": "虚假办案 / 安全账户转账",
+    "scenario": "虚假投资平台",
     "target_group": [
-      "认知衰退型",
-      "容易紧张的老人"
+      "盲目投资型",
+      "有积蓄的老人"
     ],
     "key_phrases": [
-      "你涉嫌违法",
-      "必须转到安全账户",
-      "案件保密不能告诉家人"
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
     ],
     "red_flags": [
-      "电话办案",
-      "要求保密",
-      "要求转入安全账户"
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
     ],
     "counter_measures": [
-      "挂断后拨打 110 核实",
-      "任何安全账户都是骗局",
-      "先联系家人确认"
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
     ],
     "emergency_actions": [
-      "立刻止付",
-      "保存转账记录",
-      "马上报警"
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
     ],
-    "psychological_trap": "利用恐惧和权威压制判断力"
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-07-01",
+    "incident_month": "2025-07",
+    "region": "重庆市",
+    "loss_amount_cny": 740000.0,
+    "heat_score": 84,
+    "heat_level": "高",
+    "raw_content": "该类手法主要针对中老年女性群体。诈骗分子首先通过电话冒充公检法工作人员，谎称受害人涉嫌犯罪，造成恐慌，随后展示虚假法律文书，胁迫其配合\n“调查”，并以保持通话的方式阻断受害人与外界电话联系，诱骗受害人以转账至“安全账户”、需要交“取保候审保证金”、取现后放\n到\n指定地点等方式实施诈骗。如今年\n2月，刘某接到自称外地某公安机关民警电话，以其涉嫌洗钱需配合“调查”为由，诱骗其到银行取现，刘某将74万元现金放至指定位置被诈骗分子取走。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
   },
   {
-    "id": "d4f74f22",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "id": "b6913a2e",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151753",
-    "processed_at": "2026-04-26T20:54:40.036521",
+    "crawled_at": "2026-04-26T23:17:28.414005",
+    "processed_at": "2026-04-26T23:17:28.423889",
     "status": "pending_review",
     "content_lifecycle": "new",
-    "title": "虚假贷款诈骗",
-    "summary": "2025\n年\n3\n月\n23\n日，商水县张明乡某村大学生王某某在家中接到一个自称来自平安银行的贷款电话。对方承诺贷款下款迅速、门槛低，且可线上实时办理、即时到账。由于王某某有资金需求，便按照对方提供的网...",
-    "scam_type": "贷款诈骗",
-    "scenario": "仿冒贷款平台",
+    "title": "冒充熟人诈骗",
+    "summary": "2025年6月，谭某在某社交平台通过一名与好友头像、昵称相同的加友申请，对方称手机卡补办申请了新号，并称刚买了一个名贵背包，已经付了定金，但尾款需1小时内垫付，并发来显示“1天延迟”的定金转账截图。谭...",
+    "scam_type": "冒充领导 / 熟人诈骗",
+    "scenario": "熟人身份伪装转账",
     "target_group": [
-      "技术懵懂型",
-      "急需资金的人群"
+      "财务人员",
+      "重关系信任的人群"
     ],
     "key_phrases": [
-      "额度高利息低",
-      "先转账验证账户",
-      "解冻后即可放款"
+      "紧急转一笔款",
+      "这是领导交代的",
+      "不要走正常流程"
     ],
     "red_flags": [
-      "要求先转账再放款",
-      "下载仿冒贷款 App",
-      "转入所谓监管账户"
+      "只发消息不接电话",
+      "绕开审批流程",
+      "突然要求大额转账"
     ],
     "counter_measures": [
-      "正规贷款不会先收费",
-      "贷款只走持牌平台",
-      "不向陌生账户做验证转账"
+      "转账前电话或当面核实",
+      "坚持审批流程",
+      "涉及领导指令也先复核"
     ],
     "emergency_actions": [
-      "立刻停止转账",
-      "联系银行止付",
-      "保存 App 和转账信息报警"
+      "立刻联系收款行止付",
+      "同步通知公司和警方",
+      "保留聊天和转账证据"
     ],
-    "psychological_trap": "利用资金焦虑和低息诱惑心理"
+    "psychological_trap": "利用权威服从和熟人信任心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-06-01",
+    "incident_month": "2025-06",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 41,
+    "heat_level": "关注",
+    "raw_content": "2025年6月，谭某在某社交平台通过一名与好友头像、昵称相同的加友申请，对方称手机卡补办申请了新号，并称刚买了一个名贵背包，已经付了定金，但尾款需1小时内垫付，并发来显示“1天延迟”的定金转账截图。谭某信以为真，点击对方提供的链接进行转账。直到几天后，谭某一直未收到朋友的消息，与好友联系后问到何时还款，对方否认此事，谭某才知被骗。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：社交平台"
   },
   {
-    "id": "6dcde66c",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "id": "206474af",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151732",
-    "processed_at": "2026-04-26T20:54:40.036491",
+    "crawled_at": "2026-04-26T23:17:27.401024",
+    "processed_at": "2026-04-26T23:17:28.421863",
     "status": "pending_review",
     "content_lifecycle": "new",
-    "title": "游戏交易诈骗",
-    "summary": "2025\n年\n3\n月\n24\n日，家住商水县老城区西环路的一名少年高某某，在家中刷抖音时，\n看到一条视频\n声称\n点击关注即可\n免费获得和平精英游戏装备。\n高某非常高兴\n地关注了对方账号。对方回关后，打来...",
+    "title": "网络游戏虚假交易诈骗",
+    "summary": "该类手法主要针对沉迷网络游戏的青少年群体。诈骗分子通过在网络发布低价出售账号、道具、点卡等广告吸引受害人，诱导其脱离正规平台交易，以交\n“注册费”“会员费”“解冻费”等名义，骗取钱财。如今年6月，小学...",
     "scam_type": "游戏交易诈骗",
     "scenario": "非官方游戏道具交易",
     "target_group": [
@@ -426,561 +393,231 @@
       "保留聊天和支付记录",
       "及时报警"
     ],
-    "psychological_trap": "利用免费获得和低价捡漏心理"
+    "psychological_trap": "利用免费获得和低价捡漏心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-06-01",
+    "incident_month": "2025-06",
+    "region": "重庆市",
+    "loss_amount_cny": 17000.0,
+    "heat_score": 56,
+    "heat_level": "中",
+    "raw_content": "该类手法主要针对沉迷网络游戏的青少年群体。诈骗分子通过在网络发布低价出售账号、道具、点卡等广告吸引受害人，诱导其脱离正规平台交易，以交\n“注册费”“会员费”“解冻费”等名义，骗取钱财。如今年6月，小学生罗某被诈骗分子以扫码送游戏装备为诱饵，在私下交易中，被骗转账1.7万元后遭对方拉黑。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向重庆市外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
   },
   {
-    "id": "b659bd2c",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "id": "2f088909",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151711",
-    "processed_at": "2026-04-26T20:54:40.036468",
+    "crawled_at": "2026-04-26T23:17:28.414072",
+    "processed_at": "2026-04-26T23:17:28.424568",
     "status": "pending_review",
     "content_lifecycle": "new",
-    "title": "虚假服务诈骗",
-    "summary": "2025\n年\n3\n月\n21\n日，商水县新城区商贩王某某使用电脑浏览网页时，不慎点击了一则广告，下载了一款名为\n“\n符号\n”\n的交友\nAPP\n。登录后，一名客服主动搭话，并聊起露骨话题。客服随后询问王某...",
-    "scam_type": "色情服务 / 裸聊敲诈诈骗",
-    "scenario": "交友诱导和敲诈转账",
+    "title": "冒充单位组织类",
+    "summary": "2025年5月，陈某收到装有“国务院财政部扶贫资金发放通知书”的快递，文件称其可领取300万元补助并附领取方式及网址链接。陈某信以为真，按提示在手机浏览器输入网址，下载安装APP提交申请后等待审批通过...",
+    "scam_type": "助学金诈骗",
+    "scenario": "假冒教育补助发放",
     "target_group": [
-      "独居人群",
-      "情感空虚人群"
+      "学生家庭",
+      "信息核验能力弱的人群"
     ],
     "key_phrases": [
-      "免费上门服务",
-      "完成任务后安排见面",
-      "不给钱就曝光"
+      "已获得助学金",
+      "先缴手续费激活",
+      "打到指定账户后发放"
     ],
     "red_flags": [
-      "陌生交友 App 主动露骨聊天",
-      "以任务名义要求转账",
-      "威胁曝光或失联"
+      "发钱前先收费",
+      "电话要求转账激活",
+      "不通过学校官方渠道通知"
     ],
     "counter_measures": [
-      "不安装陌生交友软件",
-      "不参与任何色情服务交易",
-      "遭遇威胁先报警不转账"
+      "只通过学校官方渠道办理",
+      "国家奖助学金不会先收费",
+      "先联系老师或学校核实"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "保留电话和转账截图",
+      "及时报警"
+    ],
+    "psychological_trap": "利用对福利机会的期待和信息差",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-05-01",
+    "incident_month": "2025-05",
+    "region": "红河州",
+    "loss_amount_cny": 3000000.0,
+    "heat_score": 76,
+    "heat_level": "高",
+    "raw_content": "2025年5月，陈某收到装有“国务院财政部扶贫资金发放通知书”的快递，文件称其可领取300万元补助并附领取方式及网址链接。陈某信以为真，按提示在手机浏览器输入网址，下载安装APP提交申请后等待审批通过。次日，对方发消息称审批通过，要求其缴纳1%手续费（3万元）至指定私人账户。陈某转账后申请提现失败，对方以“收款账号输错致资金冻结”为由要求再次转账，陈某意识到被骗后报案。\n警方提醒：\n诈骗手法千变万化，要想不被骗，唯有持续关注反诈宣传，不断学习识骗防骗知识，如遇被骗请立即拨打110报警。\n防骗指南：牢记 “三不一多”原则\n1.\n不轻信：\n陌生电话/信息中的“高收益”“低风险”“紧急事件”先打个问号；\n2.\n不点击：\n不明链接/二维码可能暗藏木马，官方通知请通过APP内查看；\n3.\n不转账：\n向私人账户、境外账户、陌生企业\n账户\n转账前，至少通过2种方式核实；\n4.\n多核实：\n涉及资金操作，拨打官方客服（如银行95开头电话）或联系亲友商议。\n收藏\n一部手机游云南\n一部手机办事通\n“互联网+督查”\n云南省营商环境投诉举报和问卷调查平台\n2025年红河州食品安全“你点我检 服务惠民生”活动...\n阻碍民营经济发展壮大问题线索征集\n为基层减负线索反映\n影响营商环境建设问题线索征集\n红河州“局长坐诊接诉”企业诉求直通窗\n“互联网+督查”推动高质量发展综合督查征集问题线索\n我的服务 您来点评\n中央政府和国家部委网站\n外交部\n国防部\n国家发展和改革委员会\n教育部\n科学技术部\n工业和信息化部\n国家民族事务委员会\n公安部\n民政部\n司法部\n财政部\n人力资源和社会保障部\n自然资源部\n生态环境部\n住房和城乡建设部\n交通运输部\n农业农村部\n商务部\n文化和旅游部\n应急管理部\n审计署\n国家语言文字工作委员会\n国家航天局\n国家原子能机构\n国家核安全局\n国资委\n国家税务总局\n国家市场监督管理总局\n国家广播电视总局\n国家体育总局\n国家统计局\n国家国际发展合作署\n国务院参事室\n国家机关事务管理局\n国家版权局\n国务院港澳事务办公室\n国务院侨务办公室\n国务院台湾事务办公室\n国家互联网信息办公室\n国务院新闻办公室\n中国科学院\n中国工程院\n国务院发展研究中心\n中国气象局\n中国银行监督管理委员会\n中国证券监督管理委员会\n国家信访局\n国家粮食和物资储备局\n国家能源局\n国家国防科技工业局\n省政府部门网站\n省工业和信息化厅\n省教育厅\n省科学技术厅\n省民族宗教事务委员会\n省公安厅\n省民政厅\n省司法厅\n省财政厅\n省人力资源和社会保障厅\n省自然资源厅\n省生态环境厅\n省交通运输厅\n省农业农村厅\n省水利厅\n省商务厅\n省文化和旅游厅\n省卫生健康委\n省应急管理厅\n省外办\n省国有资产监督管理委员会\n省市场监督管理局\n省广播电视局\n省林业和草原局\n省体育局\n省统计局\n省机关事务管理局\n省粮食和物资储备局\n省监狱管理局\n省药品监督管理局\n市县区政府网站\n个旧市人民政府\n开远市人民政府\n蒙自市人民政府\n建水县人民政府\n石屏县人民政府\n弥勒市人民政府\n泸西县人民政府\n红河县人民政府\n元阳县人民政府\n绿春县人民政府\n屏边县人民政府\n金平县人民政府\n河口县人民政府\n友情链接\n云南省政务服务网上大厅\n网站地图\n|\n网站声明\n|\n关于我们\n主办：红河哈尼族彝族自治州人民政府 承办：红河哈尼族彝族自治州人民政府办公室\n地址：云南省红河哈尼族彝族自治州蒙自市天马路67号 政务服务便民热线：0873-12345\nx\n网站支持IPV6\n滇ICP备09006781号\n滇公网安备 53250302000196号\n网站标识码：5325000001",
+    "suspect_region_scope": "疑似境外或境外协同网络团伙",
+    "suspect_region_confidence": "中",
+    "suspect_region_basis": "案情提到：境外"
+  },
+  {
+    "id": "27c11e5b",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413977",
+    "processed_at": "2026-04-26T23:17:28.423534",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假投资理财诈骗",
+    "summary": "2025年5月，何某通过某交友软件上认识了一名自称是某部队军官的男性网友，何某与对方聊了一段时间后就确定了恋爱关系。不久，对方告诉何某即将转业，称其老班长转业后在投资公司任职，现有赚钱项目邀约合作，但...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老年人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-05-01",
+    "incident_month": "2025-05",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 49,
+    "heat_level": "关注",
+    "raw_content": "2025年5月，何某通过某交友软件上认识了一名自称是某部队军官的男性网友，何某与对方聊了一段时间后就确定了恋爱关系。不久，对方告诉何某即将转业，称其老班长转业后在投资公司任职，现有赚钱项目邀约合作，但因自己在部队不便使用手机操作，便让何某帮忙投资这个项目。何某按其指引登录对方提供的网站进行操作，几次获利后便自行注册了一个账号进行投资，多次充值后发现该网站已无法登录才意识到自己被骗。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "4b621cc7",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413942",
+    "processed_at": "2026-04-26T23:17:28.422499",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "关闭微信百万保障诈骗",
+    "summary": "2025年5月，陆某接到显示为境外的来电，称陆某在微信上签约的百万保险即将到期，不取消每个月会从陆某账户上扣除2000元。陆某信以为真，立即按照对方要求下载通话会议APP共享屏幕进行操作，对方让陆某将...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-05-01",
+    "incident_month": "2025-05",
+    "region": "红河州",
+    "loss_amount_cny": 2000.0,
+    "heat_score": 53,
+    "heat_level": "关注",
+    "raw_content": "2025年5月，陆某接到显示为境外的来电，称陆某在微信上签约的百万保险即将到期，不取消每个月会从陆某账户上扣除2000元。陆某信以为真，立即按照对方要求下载通话会议APP共享屏幕进行操作，对方让陆某将银行卡贴到手机背面输入密码后，手机就出现黑屏，对方问陆某是不是还有其他银行卡，随即便收到银行卡钱被转出去的短信提示，陆某意识到被骗后报警。",
+    "suspect_region_scope": "疑似境外或境外协同网络团伙",
+    "suspect_region_confidence": "中",
+    "suspect_region_basis": "案情提到：境外"
+  },
+  {
+    "id": "8ae00631",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400994",
+    "processed_at": "2026-04-26T23:17:28.421735",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "婚恋交友诈骗",
+    "summary": "该类手法主要针对单身、离异群体。诈骗分子在婚恋、交友网站上假冒军人、\n“高富帅”“白富美”，骗取受害人信任，以急需资金周转、购买手机、住院治疗等理由骗取钱财。如今年5月，曹某通过聊天软件与一自称是军官...",
+    "scam_type": "婚恋交友诈骗",
+    "scenario": "情感关系诱导转账",
+    "target_group": [
+      "单身人群",
+      "空巢独居型"
+    ],
+    "key_phrases": [
+      "我对你是真心的",
+      "包裹被扣需要交税",
+      "先帮我周转一下"
+    ],
+    "red_flags": [
+      "短时间建立亲密关系",
+      "很快开始谈钱",
+      "以包裹、就医或困难为由索要转账"
+    ],
+    "counter_measures": [
+      "陌生关系涉及金钱一律先停",
+      "先核实真实身份和现实关系",
+      "与家人沟通后再决定"
     ],
     "emergency_actions": [
       "停止继续付款",
-      "保存聊天截图",
-      "尽快报警求助"
-    ],
-    "psychological_trap": "利用好奇心、羞耻感和害怕曝光心理"
-  },
-  {
-    "id": "18945f96",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151687",
-    "processed_at": "2026-04-26T20:54:40.036449",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "虚假购物诈骗",
-    "summary": "2025\n年\n3\n月\n20\n日，商水县大武乡某村电商经营者韩某某在其\n1688\n店铺收到顾客发来的穿衣镜商品链接。这名顾客称，因支付限额问题无法完成订单交易。韩某某未加思索便点击链接，页面随即弹出系统...",
-    "scam_type": "虚假购物 / 远程控制诈骗",
-    "scenario": "假客服链接和远程操控",
-    "target_group": [
-      "电商经营者",
-      "技术懵懂型"
-    ],
-    "key_phrases": [
-      "订单异常需要联系客服",
-      "下载远程控制软件处理",
-      "账户冻结需解除"
-    ],
-    "red_flags": [
-      "脱离平台到 QQ 或电话沟通",
-      "要求下载远程控制软件",
-      "链接跳转假客服页面"
-    ],
-    "counter_measures": [
-      "只在官方平台内处理订单异常",
-      "绝不安装远程控制软件",
-      "异常订单先联系平台官方客服"
-    ],
-    "emergency_actions": [
-      "立刻断网并卸载远控软件",
-      "修改支付密码",
-      "联系银行止付报警"
-    ],
-    "psychological_trap": "利用商家急于成交和怕丢单心理"
-  },
-  {
-    "id": "a2082d0e",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151658",
-    "processed_at": "2026-04-26T20:54:40.036430",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "冒充其他身份诈骗",
-    "summary": "2025\n年\n3\n月\n19\n日，商水县舒庄乡家庭主妇贾某在家接到一个自称人寿保险工作人员的电话。对方声称贾某已开通人寿保险电子支付安全保单服务，每月将自动扣除\n2\n千元服务费，若无需此项服务，可联系调...",
-    "scam_type": "冒充客服退款诈骗",
-    "scenario": "平台扣费 / 退款取消",
-    "target_group": [
-      "技术懵懂型",
-      "网购老人"
-    ],
-    "key_phrases": [
-      "不取消就会自动扣费",
-      "需要下载软件处理",
-      "需要共享屏幕或提供验证码"
-    ],
-    "red_flags": [
-      "主动来电处理退款",
-      "要求下载陌生 App",
-      "要求共享屏幕或验证码"
-    ],
-    "counter_measures": [
-      "只在官方 App 内处理退款",
-      "不下载陌生软件",
-      "验证码绝不外泄"
-    ],
-    "emergency_actions": [
-      "立刻停止操作",
-      "联系银行止付",
-      "保留聊天和转账证据"
-    ],
-    "psychological_trap": "利用害怕扣费和急于退款的心理"
-  },
-  {
-    "id": "9dd2ff0a",
-    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
-    "source_name": "新疆维吾尔自治区卫生健康委员会",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:39.151619",
-    "processed_at": "2026-04-26T20:54:40.036394",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "刷单返利诈骗",
-    "summary": "2025\n年\n3\n月\n15\n日，商水县魏集镇魏集街某饭店厨师刘某某收到一条快手商家的互关消息，对方邀请其\n完成上家收藏\n任务。在收藏关注对方后，刘某某获得了\n5\n元佣金。随后，对方诱导其参与长期的刷单...",
-    "scam_type": "刷单返利诈骗",
-    "scenario": "垫资返利陷阱",
-    "target_group": [
-      "贪小便宜型",
-      "想做兼职补贴家用的人群"
-    ],
-    "key_phrases": [
-      "动动手指就能赚钱",
-      "先垫资后返现",
-      "再做一单就能提现"
-    ],
-    "red_flags": [
-      "先返小钱建立信任",
-      "金额越来越大",
-      "提现被卡住要求继续补钱"
-    ],
-    "counter_measures": [
-      "任何先垫资兼职都不参与",
-      "不要继续补钱",
-      "保留聊天和支付记录"
-    ],
-    "emergency_actions": [
-      "停止转账",
-      "联系平台和银行",
-      "尽快报警"
-    ],
-    "psychological_trap": "利用小利诱惑和回本执念"
-  },
-  {
-    "id": "ba2f5985",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147361",
-    "processed_at": "2026-04-26T20:54:40.036362",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "校园贷 / 征信修复诈骗",
-    "summary": "2022年1月，湖北省某市张某某接到陌生电话，对方自称是某平台客服，能准确说出张某某个人信息，并表示要帮张某某消除“校园贷”记录，否则会影响个人征信。张某某按照对方要求向多个网贷平台借款，并分别转到对...",
-    "scam_type": "征信修复 / 校园贷诈骗",
-    "scenario": "虚假征信消除",
-    "target_group": [
-      "技术懵懂型",
-      "容易焦虑的人群"
-    ],
-    "key_phrases": [
-      "帮你消除记录",
-      "否则影响征信",
-      "需要先借款转到指定账户"
-    ],
-    "red_flags": [
-      "能准确说出个人信息",
-      "以征信为由施压",
-      "要求多平台借款后转账"
-    ],
-    "counter_measures": [
-      "征信问题只通过官方渠道处理",
-      "不按电话指示借款转账",
-      "先联系家人核实"
-    ],
-    "emergency_actions": [
-      "停止借款和转账",
-      "联系贷款平台和银行",
-      "保存通话证据报警"
-    ],
-    "psychological_trap": "利用对征信影响的恐惧心理"
-  },
-  {
-    "id": "bcca1d19",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147344",
-    "processed_at": "2026-04-26T20:54:40.036347",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "仿冒证券投资诈骗",
-    "summary": "2022年2月，河北省某市受害人胡某看到炒股广告，下载“平安证券”仿冒APP进行相关投资操作，开始投入小金额盈利并提现成功，遂加大投资金额，最后提现失败，合计被骗50万元。",
-    "scam_type": "投资理财诈骗",
-    "scenario": "虚假投资平台",
-    "target_group": [
-      "盲目投资型",
-      "有积蓄的老人"
-    ],
-    "key_phrases": [
-      "内幕消息",
-      "稳赚高收益",
-      "缴纳保证金后即可提现"
-    ],
-    "red_flags": [
-      "高收益低风险",
-      "先小额盈利后诱导加码",
-      "提现时不断加收费用"
-    ],
-    "counter_measures": [
-      "投资前核实平台资质",
-      "高收益默认高风险",
-      "大额投资先与家人确认"
-    ],
-    "emergency_actions": [
-      "停止继续投入",
-      "保存平台和转账记录",
-      "立即报警"
-    ],
-    "psychological_trap": "利用快速获利和沉没成本心理"
-  },
-  {
-    "id": "e4df7a47",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147329",
-    "processed_at": "2026-04-26T20:54:40.036320",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "冒充公检法安全账户诈骗",
-    "summary": "2021年6月，诈骗分子冒充浙江省某市派出所民警，联系郭某称其已涉嫌诈骗被立案，并要求郭某登录仿冒的某公安局官网查看立案信息，将资金转移到“安全账户”。郭某按照诈骗分子要求转账，合计被骗50余万元。",
-    "scam_type": "冒充公检法诈骗",
-    "scenario": "虚假办案 / 安全账户转账",
-    "target_group": [
-      "认知衰退型",
-      "容易紧张的老人"
-    ],
-    "key_phrases": [
-      "你涉嫌违法",
-      "必须转到安全账户",
-      "案件保密不能告诉家人"
-    ],
-    "red_flags": [
-      "电话办案",
-      "要求保密",
-      "要求转入安全账户"
-    ],
-    "counter_measures": [
-      "挂断后拨打 110 核实",
-      "任何安全账户都是骗局",
-      "先联系家人确认"
-    ],
-    "emergency_actions": [
-      "立刻止付",
-      "保存转账记录",
-      "马上报警"
-    ],
-    "psychological_trap": "利用恐惧和权威压制判断力"
-  },
-  {
-    "id": "915b147f",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147314",
-    "processed_at": "2026-04-26T20:54:40.036287",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "冒充电商客服退款诈骗",
-    "summary": "2021年11月，四川省某市张某某接到谎称某电商的客服电话075xxx384，称张某某购买的尿不湿因质量问题可申请退款。张某某未通过官方渠道核实对方信息，按照对方指示进行转账操作，合计被骗7.5万元。",
-    "scam_type": "冒充客服退款诈骗",
-    "scenario": "平台扣费 / 退款取消",
-    "target_group": [
-      "技术懵懂型",
-      "网购老人"
-    ],
-    "key_phrases": [
-      "不取消就会自动扣费",
-      "需要下载软件处理",
-      "需要共享屏幕或提供验证码"
-    ],
-    "red_flags": [
-      "主动来电处理退款",
-      "要求下载陌生 App",
-      "要求共享屏幕或验证码"
-    ],
-    "counter_measures": [
-      "只在官方 App 内处理退款",
-      "不下载陌生软件",
-      "验证码绝不外泄"
-    ],
-    "emergency_actions": [
-      "立刻停止操作",
-      "联系银行止付",
-      "保留聊天和转账证据"
-    ],
-    "psychological_trap": "利用害怕扣费和急于退款的心理"
-  },
-  {
-    "id": "fded5257",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147298",
-    "processed_at": "2026-04-26T20:54:40.036254",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "任务返现 / 刷单诈骗",
-    "summary": "2021年8月，江苏省某市方某某下载了“阿聊”APP和“汇龙支付”APP，参加所谓的“高额”任务返现活动。平台以连单任务、信誉不足为由让方某某先充钱再重启任务，方某某累计被骗11万元。",
-    "scam_type": "刷单返利诈骗",
-    "scenario": "垫资返利陷阱",
-    "target_group": [
-      "贪小便宜型",
-      "想做兼职补贴家用的人群"
-    ],
-    "key_phrases": [
-      "动动手指就能赚钱",
-      "先垫资后返现",
-      "再做一单就能提现"
-    ],
-    "red_flags": [
-      "先返小钱建立信任",
-      "金额越来越大",
-      "提现被卡住要求继续补钱"
-    ],
-    "counter_measures": [
-      "任何先垫资兼职都不参与",
-      "不要继续补钱",
-      "保留聊天和支付记录"
-    ],
-    "emergency_actions": [
-      "停止转账",
-      "联系平台和银行",
-      "尽快报警"
-    ],
-    "psychological_trap": "利用小利诱惑和回本执念"
-  },
-  {
-    "id": "11bd4cf5",
-    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
-    "source_name": "国家网信办",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:38.147268",
-    "processed_at": "2026-04-26T20:54:40.036225",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "仿冒贷款 APP 诈骗",
-    "summary": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪...",
-    "scam_type": "贷款诈骗",
-    "scenario": "仿冒贷款平台",
-    "target_group": [
-      "技术懵懂型",
-      "急需资金的人群"
-    ],
-    "key_phrases": [
-      "额度高利息低",
-      "先转账验证账户",
-      "解冻后即可放款"
-    ],
-    "red_flags": [
-      "要求先转账再放款",
-      "下载仿冒贷款 App",
-      "转入所谓监管账户"
-    ],
-    "counter_measures": [
-      "正规贷款不会先收费",
-      "贷款只走持牌平台",
-      "不向陌生账户做验证转账"
-    ],
-    "emergency_actions": [
-      "立刻停止转账",
-      "联系银行止付",
-      "保存 App 和转账信息报警"
-    ],
-    "psychological_trap": "利用资金焦虑和低息诱惑心理"
-  },
-  {
-    "id": "b92df224",
-    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
-    "source_name": "新源县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:37.257705",
-    "processed_at": "2026-04-26T20:54:40.036197",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "免费领游戏装备类诈骗",
-    "summary": "案例经过：2025年4月7日，小学生L某刷短视频时，收到陌生人可领“蛋仔派对”游戏装备的信息，在对方引导下下载了“腾讯会议”软件，进入视频会议后，银行卡被多次扣费，共计11480.04元。\n\n诈骗手段...",
-    "scam_type": "游戏交易诈骗",
-    "scenario": "非官方游戏道具交易",
-    "target_group": [
-      "未成年人家庭",
-      "游戏用户"
-    ],
-    "key_phrases": [
-      "免费送装备",
-      "低价卖皮肤账号",
-      "账户冻结需充值解冻"
-    ],
-    "red_flags": [
-      "脱离官方平台交易",
-      "要求用家长手机操作",
-      "以解冻保证金名义收费"
-    ],
-    "counter_measures": [
-      "只走官方交易渠道",
-      "家长设备不交给孩子处理陌生活动",
-      "拒绝任何先充值解冻要求"
-    ],
-    "emergency_actions": [
-      "解绑银行卡或止付",
-      "保留聊天和支付记录",
+      "保留聊天和账户信息",
       "及时报警"
     ],
-    "psychological_trap": "利用免费获得和低价捡漏心理"
-  },
-  {
-    "id": "a52de7be",
-    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
-    "source_name": "新源县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:37.257679",
-    "processed_at": "2026-04-26T20:54:40.036174",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "兼职刷单类诈骗",
-    "summary": "案例经过：2025年3月，一位群众网上应聘时，被人添加微信，对方称在京东购买东西可返利。该群众从3月28日起在京东购买37284元物品，后对方称其信用不通过，需交付50000元才能提取报酬，该群众转账...",
-    "scam_type": "刷单返利诈骗",
-    "scenario": "垫资返利陷阱",
-    "target_group": [
-      "贪小便宜型",
-      "想做兼职补贴家用的人群"
-    ],
-    "key_phrases": [
-      "动动手指就能赚钱",
-      "先垫资后返现",
-      "再做一单就能提现"
-    ],
-    "red_flags": [
-      "先返小钱建立信任",
-      "金额越来越大",
-      "提现被卡住要求继续补钱"
-    ],
-    "counter_measures": [
-      "任何先垫资兼职都不参与",
-      "不要继续补钱",
-      "保留聊天和支付记录"
-    ],
-    "emergency_actions": [
-      "停止转账",
-      "联系平台和银行",
-      "尽快报警"
-    ],
-    "psychological_trap": "利用小利诱惑和回本执念"
-  },
-  {
-    "id": "86030cd1",
-    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
-    "source_name": "新源县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:37.257651",
-    "processed_at": "2026-04-26T20:54:40.036138",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "虚构代买类诈骗",
-    "summary": "案例经过：2025年4月，C女士在微信上同意了骗子冒充某学校老师添加好友的请求，对方假装在其便利店购买牛肉礼盒、干果，因店铺无货，骗子推荐“卖牛肉礼盒”给网友，让C女士代买，C女士转账19900元后被...",
-    "scam_type": "代买垫付诈骗",
-    "scenario": "熟人身份引导代买",
-    "target_group": [
-      "热心助人型",
-      "小商户"
-    ],
-    "key_phrases": [
-      "帮我先代买一下",
-      "货到了马上给你结款",
-      "已经转账给你了"
-    ],
-    "red_flags": [
-      "用熟人或老师身份接近",
-      "要求先垫付",
-      "转账截图无法核验"
-    ],
-    "counter_measures": [
-      "先核实对方身份",
-      "不为陌生订单垫资",
-      "收款到账前不发货不代买"
-    ],
-    "emergency_actions": [
-      "保留聊天和转账截图",
-      "联系银行止付",
-      "及时报警"
-    ],
-    "psychological_trap": "利用助人和信任心理"
-  },
-  {
-    "id": "1d1bdb12",
-    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
-    "source_name": "新源县人民政府",
-    "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:37.257626",
-    "processed_at": "2026-04-26T20:54:40.036090",
-    "status": "pending_review",
-    "content_lifecycle": "new",
-    "title": "虚假投资理财类诈骗",
-    "summary": "案例经过：2025年4月8日，D女士在抖音看到主播教学炒股赚钱，随后被引导下载“默往企业版”“HTzp”华泰证券炒股APP，进入“投资群”后，在助理引导下操作投钱，提现时以操作错误、缴纳保证金为由，被...",
-    "scam_type": "投资理财诈骗",
-    "scenario": "虚假投资平台",
-    "target_group": [
-      "盲目投资型",
-      "有积蓄的老人"
-    ],
-    "key_phrases": [
-      "内幕消息",
-      "稳赚高收益",
-      "缴纳保证金后即可提现"
-    ],
-    "red_flags": [
-      "高收益低风险",
-      "先小额盈利后诱导加码",
-      "提现时不断加收费用"
-    ],
-    "counter_measures": [
-      "投资前核实平台资质",
-      "高收益默认高风险",
-      "大额投资先与家人确认"
-    ],
-    "emergency_actions": [
-      "停止继续投入",
-      "保存平台和转账记录",
-      "立即报警"
-    ],
-    "psychological_trap": "利用快速获利和沉没成本心理"
+    "psychological_trap": "利用情感依赖和同情心",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-05-01",
+    "incident_month": "2025-05",
+    "region": "重庆市",
+    "loss_amount_cny": 166000.0,
+    "heat_score": 79,
+    "heat_level": "高",
+    "raw_content": "该类手法主要针对单身、离异群体。诈骗分子在婚恋、交友网站上假冒军人、\n“高富帅”“白富美”，骗取受害人信任，以急需资金周转、购买手机、住院治疗等理由骗取钱财。如今年5月，曹某通过聊天软件与一自称是军官的男子确立了恋爱关系，被对方以谎称向其寄送包裹，需要交关税为由，骗取受害人转账16.6万元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
   },
   {
     "id": "56113bfd",
     "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
     "source_name": "新源县人民政府",
     "source_reliability": "official",
-    "crawled_at": "2026-04-26T20:54:37.257577",
-    "processed_at": "2026-04-26T20:54:40.036040",
+    "crawled_at": "2026-04-26T22:44:33.963437",
+    "processed_at": "2026-04-26T22:44:39.190592",
     "status": "pending_review",
     "content_lifecycle": "new",
     "title": "冒充官方客服取消扣费类诈骗",
@@ -1011,6 +648,1938 @@
       "联系银行止付",
       "保留聊天和转账证据"
     ],
-    "psychological_trap": "利用害怕扣费和急于退款的心理"
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "新源县",
+    "source_year": 2025,
+    "incident_date": "2025-04-16",
+    "incident_month": "2025-04",
+    "region": "新源县",
+    "loss_amount_cny": 76996.23,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "案例经过：2025年4月16日，A女士接到陌生电话，对方称其在抖音APP开通了直播会员业务，若不及时取消，每月将自动扣费800元。A女士信以为真，跟随指示下载“飞语”APP、“抖音生活”APP，操作后手机黑屏3分钟。4月17日17时许，A女士发现银行卡有4笔总计76996.23元被转出。2025年4月，J女士接到“百万保险”业务员电话，称其在某平台开通百万保险业务，不取消将每月扣费2000元，J女士按对方提示操作，导致被骗9990元。\n\n诈骗手段解析：1.虚假人设获取信任：诈骗分子冒充官方身份，以“关闭自动扣费”为由，利用非法获取的个人信息编造场景，降低受害人防备。2.诱导下载特定软件：发送链接引诱受害人下载含“共享屏幕”功能软件，开启该功能时手机会黑屏，便于诈骗分子窃取信息。3.实施资金转移：通过获取的支付密码、验证码等关键信息，将受害人银行卡资金转出。"
+  },
+  {
+    "id": "1d1bdb12",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T22:44:33.963510",
+    "processed_at": "2026-04-26T22:44:39.190706",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假投资理财类诈骗",
+    "summary": "案例经过：2025年4月8日，D女士在抖音看到主播教学炒股赚钱，随后被引导下载“默往企业版”“HTzp”华泰证券炒股APP，进入“投资群”后，在助理引导下操作投钱，提现时以操作错误、缴纳保证金为由，被...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "新源县",
+    "source_year": 2025,
+    "incident_date": "2025-04-08",
+    "incident_month": "2025-04",
+    "region": "新源县",
+    "loss_amount_cny": 292100.0,
+    "heat_score": 74,
+    "heat_level": "高",
+    "raw_content": "案例经过：2025年4月8日，D女士在抖音看到主播教学炒股赚钱，随后被引导下载“默往企业版”“HTzp”华泰证券炒股APP，进入“投资群”后，在助理引导下操作投钱，提现时以操作错误、缴纳保证金为由，被骗292100元。\n\n诈骗手段解析：1.虚假广告吸引上钩：通过网络多渠道发布股票、外汇等虚假理财广告，以内幕消息为诱饵吸引受害人。2.诱导下载虚假APP：引导受害人加入“投资群”，诱导下载虚假APP或点击虚假网页，绑定银行账户进行所谓“投资理财”。3.连环诈骗套路：先用小额盈利麻痹受害人，待其加大投入后，以各种理由要求缴纳费用才能提现，实施大额诈骗。"
+  },
+  {
+    "id": "b92df224",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T22:44:33.964225",
+    "processed_at": "2026-04-26T22:44:39.191011",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "免费领游戏装备类诈骗",
+    "summary": "案例经过：2025年4月7日，小学生L某刷短视频时，收到陌生人可领“蛋仔派对”游戏装备的信息，在对方引导下下载了“腾讯会议”软件，进入视频会议后，银行卡被多次扣费，共计11480.04元。\n\n诈骗手段...",
+    "scam_type": "游戏交易诈骗",
+    "scenario": "非官方游戏道具交易",
+    "target_group": [
+      "未成年人家庭",
+      "游戏用户"
+    ],
+    "key_phrases": [
+      "免费送装备",
+      "低价卖皮肤账号",
+      "账户冻结需充值解冻"
+    ],
+    "red_flags": [
+      "脱离官方平台交易",
+      "要求用家长手机操作",
+      "以解冻保证金名义收费"
+    ],
+    "counter_measures": [
+      "只走官方交易渠道",
+      "家长设备不交给孩子处理陌生活动",
+      "拒绝任何先充值解冻要求"
+    ],
+    "emergency_actions": [
+      "解绑银行卡或止付",
+      "保留聊天和支付记录",
+      "及时报警"
+    ],
+    "psychological_trap": "利用免费获得和低价捡漏心理",
+    "source_region": "新源县",
+    "source_year": 2025,
+    "incident_date": "2025-04-07",
+    "incident_month": "2025-04",
+    "region": "新源县",
+    "loss_amount_cny": 11480.04,
+    "heat_score": 56,
+    "heat_level": "中",
+    "raw_content": "案例经过：2025年4月7日，小学生L某刷短视频时，收到陌生人可领“蛋仔派对”游戏装备的信息，在对方引导下下载了“腾讯会议”软件，进入视频会议后，银行卡被多次扣费，共计11480.04元。\n\n诈骗手段解析：诈骗分子发布免费领游戏装备信息，诱导未成年下载视频会议APP，在会议中骗取银行卡号、验证码等信息，实施诈骗。"
+  },
+  {
+    "id": "ef955113",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.754055",
+    "processed_at": "2026-04-26T23:17:28.420114",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充公检法诈骗",
+    "summary": "2025\n年\n3\n月\n27\n日，商水县城关乡某村，一名正在读小学的女孩\n和某某\n在家玩手机快手时，\n收到一位自称\n周口公安人员的好友请求。添加为好友后，对方称接到举报，\n和某某\n的账号涉嫌诈骗，要求其...",
+    "scam_type": "冒充公检法诈骗",
+    "scenario": "虚假办案 / 安全账户转账",
+    "target_group": [
+      "认知衰退型",
+      "容易紧张的老人"
+    ],
+    "key_phrases": [
+      "你涉嫌违法",
+      "必须转到安全账户",
+      "案件保密不能告诉家人"
+    ],
+    "red_flags": [
+      "电话办案",
+      "要求保密",
+      "要求转入安全账户"
+    ],
+    "counter_measures": [
+      "挂断后拨打 110 核实",
+      "任何安全账户都是骗局",
+      "先联系家人确认"
+    ],
+    "emergency_actions": [
+      "立刻止付",
+      "保存转账记录",
+      "马上报警"
+    ],
+    "psychological_trap": "利用恐惧和权威压制判断力",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 33473.0,
+    "heat_score": 64,
+    "heat_level": "中",
+    "raw_content": "2025\n年\n3\n月\n27\n日，商水县城关乡某村，一名正在读小学的女孩\n和某某\n在家玩手机快手时，\n收到一位自称\n周口公安人员的好友请求。添加为好友后，对方称接到举报，\n和某某\n的账号涉嫌诈骗，要求其无条件配合公安调查。并严厉警告不得透露此事，否则将对其父母采取抓捕措施并处以罚款。\n何某某\n因害怕接受了视频通话。在对方指导下，其使用家长手机进行操作，结果造成家中钱款被骗子卷走\n33473\n元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向商水县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "d4f74f22",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.754035",
+    "processed_at": "2026-04-26T23:17:28.419982",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假贷款诈骗",
+    "summary": "2025\n年\n3\n月\n23\n日，商水县张明乡某村大学生王某某在家中接到一个自称来自平安银行的贷款电话。对方承诺贷款下款迅速、门槛低，且可线上实时办理、即时到账。由于王某某有资金需求，便按照对方提供的网...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 9450.0,
+    "heat_score": 53,
+    "heat_level": "关注",
+    "raw_content": "2025\n年\n3\n月\n23\n日，商水县张明乡某村大学生王某某在家中接到一个自称来自平安银行的贷款电话。对方承诺贷款下款迅速、门槛低，且可线上实时办理、即时到账。由于王某某有资金需求，便按照对方提供的网址通过浏览器进入一个伪造的\n“\n平安银行\n”\n网页申请贷款。然而，平台客服称其银行卡号输入有误，导致资金被冻结。在对方指导下，王某某进行一系列操作，最后不幸被骗走\n9450\n元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向商水县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "6dcde66c",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.754015",
+    "processed_at": "2026-04-26T23:17:28.419842",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "游戏交易诈骗",
+    "summary": "2025\n年\n3\n月\n24\n日，家住商水县老城区西环路的一名少年高某某，在家中刷抖音时，\n看到一条视频\n声称\n点击关注即可\n免费获得和平精英游戏装备。\n高某非常高兴\n地关注了对方账号。对方回关后，打来...",
+    "scam_type": "游戏交易诈骗",
+    "scenario": "非官方游戏道具交易",
+    "target_group": [
+      "未成年人家庭",
+      "游戏用户"
+    ],
+    "key_phrases": [
+      "免费送装备",
+      "低价卖皮肤账号",
+      "账户冻结需充值解冻"
+    ],
+    "red_flags": [
+      "脱离官方平台交易",
+      "要求用家长手机操作",
+      "以解冻保证金名义收费"
+    ],
+    "counter_measures": [
+      "只走官方交易渠道",
+      "家长设备不交给孩子处理陌生活动",
+      "拒绝任何先充值解冻要求"
+    ],
+    "emergency_actions": [
+      "解绑银行卡或止付",
+      "保留聊天和支付记录",
+      "及时报警"
+    ],
+    "psychological_trap": "利用免费获得和低价捡漏心理",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 4960.0,
+    "heat_score": 50,
+    "heat_level": "关注",
+    "raw_content": "2025\n年\n3\n月\n24\n日，家住商水县老城区西环路的一名少年高某某，在家中刷抖音时，\n看到一条视频\n声称\n点击关注即可\n免费获得和平精英游戏装备。\n高某非常高兴\n地关注了对方账号。对方回关后，打来语音电话诱导其使用家长手机领取游戏装备，同时要求找到隐蔽地方操作。高某某拿起母亲的手机，按照对方指示进行了操作，结果造成家庭经济损失\n4960\n元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向商水县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "b659bd2c",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.753993",
+    "processed_at": "2026-04-26T23:17:28.419755",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假服务诈骗",
+    "summary": "2025\n年\n3\n月\n21\n日，商水县新城区商贩王某某使用电脑浏览网页时，不慎点击了一则广告，下载了一款名为\n“\n符号\n”\n的交友\nAPP\n。登录后，一名客服主动搭话，并聊起露骨话题。客服随后询问王某...",
+    "scam_type": "虚假购物服务诈骗",
+    "scenario": "脱离平台私下交易",
+    "target_group": [
+      "网购人群",
+      "热衷抢票和代购的人群"
+    ],
+    "key_phrases": [
+      "内部渠道更便宜",
+      "私下转账省手续费",
+      "下单后马上帮你处理"
+    ],
+    "red_flags": [
+      "要求脱离平台私聊",
+      "承诺特殊渠道或内部票",
+      "要求直接转到个人账户"
+    ],
+    "counter_measures": [
+      "交易只走官方平台",
+      "不信低价内部渠道",
+      "不为抢票代购私下转账"
+    ],
+    "emergency_actions": [
+      "停止继续支付",
+      "保留聊天和订单信息",
+      "联系平台和警方"
+    ],
+    "psychological_trap": "利用稀缺感和捡漏心理",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 84290.0,
+    "heat_score": 59,
+    "heat_level": "中",
+    "raw_content": "2025\n年\n3\n月\n21\n日，商水县新城区商贩王某某使用电脑浏览网页时，不慎点击了一则广告，下载了一款名为\n“\n符号\n”\n的交友\nAPP\n。登录后，一名客服主动搭话，并聊起露骨话题。客服随后询问王某某是否需要同城女性线下上门服务，许诺服务全城空降且免费，只需完成三次平台任务即可获取女性联系方式。王某某出于好奇，按照客服指导进行操作，却不料落入诈骗圈套，被骗走\n84290\n元。",
+    "suspect_region_scope": "疑似本地或周边市县配合作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现“同城、上门”等本地接触线索。"
+  },
+  {
+    "id": "18945f96",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.753972",
+    "processed_at": "2026-04-26T23:17:28.419614",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假购物诈骗",
+    "summary": "2025\n年\n3\n月\n20\n日，商水县大武乡某村电商经营者韩某某在其\n1688\n店铺收到顾客发来的穿衣镜商品链接。这名顾客称，因支付限额问题无法完成订单交易。韩某某未加思索便点击链接，页面随即弹出系统...",
+    "scam_type": "虚假购物服务诈骗",
+    "scenario": "脱离平台私下交易",
+    "target_group": [
+      "网购人群",
+      "热衷抢票和代购的人群"
+    ],
+    "key_phrases": [
+      "内部渠道更便宜",
+      "私下转账省手续费",
+      "下单后马上帮你处理"
+    ],
+    "red_flags": [
+      "要求脱离平台私聊",
+      "承诺特殊渠道或内部票",
+      "要求直接转到个人账户"
+    ],
+    "counter_measures": [
+      "交易只走官方平台",
+      "不信低价内部渠道",
+      "不为抢票代购私下转账"
+    ],
+    "emergency_actions": [
+      "停止继续支付",
+      "保留聊天和订单信息",
+      "联系平台和警方"
+    ],
+    "psychological_trap": "利用稀缺感和捡漏心理",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 5000.0,
+    "heat_score": 45,
+    "heat_level": "关注",
+    "raw_content": "2025\n年\n3\n月\n20\n日，商水县大武乡某村电商经营者韩某某在其\n1688\n店铺收到顾客发来的穿衣镜商品链接。这名顾客称，因支付限额问题无法完成订单交易。韩某某未加思索便点击链接，页面随即弹出系统冻结提示，称因商家店铺信息未及时更新导致月收款额度已达上限，订单无法继续交易，提示联系客服处理。韩某某在联系对方发来的\n“\n平台客服\n”\n，添加对方\nQQ\n好友并进行语音通话后。在对方指引下，下载\n“\n向日葵远程控制\n”APP\n并进行一系列操作，最后被骗走\n5000\n元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：远程控制"
+  },
+  {
+    "id": "a2082d0e",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.753946",
+    "processed_at": "2026-04-26T23:17:28.419462",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充其他身份诈骗",
+    "summary": "2025\n年\n3\n月\n19\n日，商水县舒庄乡家庭主妇贾某在家接到一个自称人寿保险工作人员的电话。对方声称贾某已开通人寿保险电子支付安全保单服务，每月将自动扣除\n2\n千元服务费，若无需此项服务，可联系调...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立刻停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 166797.0,
+    "heat_score": 74,
+    "heat_level": "高",
+    "raw_content": "2025\n年\n3\n月\n19\n日，商水县舒庄乡家庭主妇贾某在家接到一个自称人寿保险工作人员的电话。对方声称贾某已开通人寿保险电子支付安全保单服务，每月将自动扣除\n2\n千元服务费，若无需此项服务，可联系调整或取消。贾某为避免扣费，按照对方指引下载了一款不知名的会议\nAPP\n，并在对方指导下进入指定会议并按照对方说的进行操作。结果，她被骗走\n166797\n元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "9dd2ff0a",
+    "source_url": "https://wjw.xinjiang.gov.cn/hfpc/djwlfz/202504/b70103aac65a4b59811bc0fd727418b5.shtml",
+    "source_name": "新疆维吾尔自治区卫生健康委员会",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:24.753906",
+    "processed_at": "2026-04-26T23:17:28.419351",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "刷单返利诈骗",
+    "summary": "2025\n年\n3\n月\n15\n日，商水县魏集镇魏集街某饭店厨师刘某某收到一条快手商家的互关消息，对方邀请其\n完成上家收藏\n任务。在收藏关注对方后，刘某某获得了\n5\n元佣金。随后，对方诱导其参与长期的刷单...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "商水县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "商水县",
+    "loss_amount_cny": 63303.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "2025\n年\n3\n月\n15\n日，商水县魏集镇魏集街某饭店厨师刘某某收到一条快手商家的互关消息，对方邀请其\n完成上家收藏\n任务。在收藏关注对方后，刘某某获得了\n5\n元佣金。随后，对方诱导其参与长期的刷单任务。因贪念作祟，刘某某按照对方指示下载了\n“\n百胜\n”APP\n并注册账号。登录平台后，在对方指导下进行任务操作，却落入诈骗设下的陷阱，最终被骗\n63303\n元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "a1fcf984",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413964",
+    "processed_at": "2026-04-26T23:17:28.423316",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "刷单返利诈骗",
+    "summary": "2025年4月，齐某刷手机看直播时进入一个“教赚钱”直播间，根据“老师”提示加入群后，下载指定APP根据导师指引在链接内做任务。一开始齐某进行小额充值，很快便能获利提现。随后，齐某放松警惕，开始大额转...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 49,
+    "heat_level": "关注",
+    "raw_content": "2025年4月，齐某刷手机看直播时进入一个“教赚钱”直播间，根据“老师”提示加入群后，下载指定APP根据导师指引在链接内做任务。一开始齐某进行小额充值，很快便能获利提现。随后，齐某放松警惕，开始大额转账。大额充值后，该APP客服以各种理由告知齐某无法提现，要求继续充值，齐某这才醒悟自己被骗。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：直播间"
+  },
+  {
+    "id": "05402e0a",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400953",
+    "processed_at": "2026-04-26T23:17:28.421579",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "贷款、征信诈骗",
+    "summary": "该类手法主要针对有贷款需求或征信有问题，难以正常申请贷款的群体。诈骗分子假冒银行或网贷平台，发布\n“无抵押、秒放款”等虚假广告，引导受害人下载虚假贷款APP或登录虚假网站，以“修复征信”“刷流水”“交...",
+    "scam_type": "贷款诈骗",
+    "scenario": "虚假征信消除",
+    "target_group": [
+      "技术懵懂型",
+      "容易焦虑的人群"
+    ],
+    "key_phrases": [
+      "帮你消除记录",
+      "否则影响征信",
+      "需要先借款转到指定账户"
+    ],
+    "red_flags": [
+      "能准确说出个人信息",
+      "以征信为由施压",
+      "要求多平台借款后转账"
+    ],
+    "counter_measures": [
+      "征信问题只通过官方渠道处理",
+      "不按电话指示借款转账",
+      "先联系家人核实"
+    ],
+    "emergency_actions": [
+      "停止借款和转账",
+      "联系贷款平台和银行",
+      "保存通话证据报警"
+    ],
+    "psychological_trap": "利用对征信影响的恐惧心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "重庆市",
+    "loss_amount_cny": 43000.0,
+    "heat_score": 51,
+    "heat_level": "关注",
+    "raw_content": "该类手法主要针对有贷款需求或征信有问题，难以正常申请贷款的群体。诈骗分子假冒银行或网贷平台，发布\n“无抵押、秒放款”等虚假广告，引导受害人下载虚假贷款APP或登录虚假网站，以“修复征信”“刷流水”“交保证金”等为由，诱骗其转账，从而达到诈骗目的。如今年4月，胡某接到自称中国人民银行征信中心工作人员的电话，以恢复征信为由，被骗转账4.3万元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向重庆市外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "0bc70339",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400908",
+    "processed_at": "2026-04-26T23:17:28.421445",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充电商物流客服类诈骗",
+    "summary": "该类手法主要针对经常网购，且对电商平台业务流程不熟悉的群体。\n诈骗分子冒充电商物流客服人员，以帮助受害人取消会员等收费服务项目或退赔网购商品为由，诱骗受害人下载视频会议软件，并开启屏幕共享，通过远程控...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "重庆市",
+    "loss_amount_cny": 176000.0,
+    "heat_score": 74,
+    "heat_level": "高",
+    "raw_content": "该类手法主要针对经常网购，且对电商平台业务流程不熟悉的群体。\n诈骗分子冒充电商物流客服人员，以帮助受害人取消会员等收费服务项目或退赔网购商品为由，诱骗受害人下载视频会议软件，并开启屏幕共享，通过远程控制转走受害人手机银行账户内资金。近期以\n“取消抖音会员”为名的诈骗案件较为突出，如今年4月，王某接到自称短视频平台客服的电话，以“不取消会员将自动扣费”为由，诱导其下载“云会议”软件，被通过屏幕共享控制手机，转走17.6万元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：远程控制、短视频平台"
+  },
+  {
+    "id": "8c5c5c52",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400882",
+    "processed_at": "2026-04-26T23:17:28.421332",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假购物、服务类诈骗",
+    "summary": "该类手法主要针对网上购物群体，发案约占\n20%。诈骗分子首先通过电商平台或社交群，发布诸如低价商品、代购或代抢门票等“特殊服务”广告来寻找目标；随后诱骗受害人通过非正规渠道进行私聊交易，以“省手续费”...",
+    "scam_type": "虚假购物服务诈骗",
+    "scenario": "脱离平台私下交易",
+    "target_group": [
+      "网购人群",
+      "热衷抢票和代购的人群"
+    ],
+    "key_phrases": [
+      "内部渠道更便宜",
+      "私下转账省手续费",
+      "下单后马上帮你处理"
+    ],
+    "red_flags": [
+      "要求脱离平台私聊",
+      "承诺特殊渠道或内部票",
+      "要求直接转到个人账户"
+    ],
+    "counter_measures": [
+      "交易只走官方平台",
+      "不信低价内部渠道",
+      "不为抢票代购私下转账"
+    ],
+    "emergency_actions": [
+      "停止继续支付",
+      "保留聊天和订单信息",
+      "联系平台和警方"
+    ],
+    "psychological_trap": "利用稀缺感和捡漏心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "重庆市",
+    "loss_amount_cny": 97000.0,
+    "heat_score": 59,
+    "heat_level": "中",
+    "raw_content": "该类手法主要针对网上购物群体，发案约占\n20%。诈骗分子首先通过电商平台或社交群，发布诸如低价商品、代购或代抢门票等“特殊服务”广告来寻找目标；随后诱骗受害人通过非正规渠道进行私聊交易，以“省手续费”等理由要求其私下转账；诈骗得手后直接拉黑受害人。如今年4月，汪某在网络平台购买某演唱会“内部”门票时，被诈骗分子引导至虚假平台进行交易，被骗转账9.7万元。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向重庆市外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "86030cd1",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T22:44:33.963553",
+    "processed_at": "2026-04-26T22:44:39.190824",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚构代买类诈骗",
+    "summary": "案例经过：2025年4月，C女士在微信上同意了骗子冒充某学校老师添加好友的请求，对方假装在其便利店购买牛肉礼盒、干果，因店铺无货，骗子推荐“卖牛肉礼盒”给网友，让C女士代买，C女士转账19900元后被...",
+    "scam_type": "代买垫付诈骗",
+    "scenario": "熟人身份引导代买",
+    "target_group": [
+      "热心助人型",
+      "小商户"
+    ],
+    "key_phrases": [
+      "帮我先代买一下",
+      "货到了马上给你结款",
+      "已经转账给你了"
+    ],
+    "red_flags": [
+      "用熟人或老师身份接近",
+      "要求先垫付",
+      "转账截图无法核验"
+    ],
+    "counter_measures": [
+      "先核实对方身份",
+      "不为陌生订单垫资",
+      "收款到账前不发货不代买"
+    ],
+    "emergency_actions": [
+      "保留聊天和转账截图",
+      "联系银行止付",
+      "及时报警"
+    ],
+    "psychological_trap": "利用助人和信任心理",
+    "source_region": "新源县",
+    "source_year": 2025,
+    "incident_date": "2025-04-01",
+    "incident_month": "2025-04",
+    "region": "新源县",
+    "loss_amount_cny": 19900.0,
+    "heat_score": 51,
+    "heat_level": "关注",
+    "raw_content": "案例经过：2025年4月，C女士在微信上同意了骗子冒充某学校老师添加好友的请求，对方假装在其便利店购买牛肉礼盒、干果，因店铺无货，骗子推荐“卖牛肉礼盒”给网友，让C女士代买，C女士转账19900元后被拉黑。\n\n诈骗手段解析：1.虚构需求与紧迫场景：强调物品稀缺、急需，利用商家同情心和助人心理，诱导代买。2.诱骗先行垫付资金：以支付账户问题为由，请求商家垫付资金，并用虚假转账截图打消疑虑，得手后消失。"
+  },
+  {
+    "id": "382caf2b",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413930",
+    "processed_at": "2026-04-26T23:17:28.422167",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "婚恋交友诈骗",
+    "summary": "2025年3月，鲁某在某社交平台上认识一陌生男子，随后相互添加好友，并确立恋爱关系，对方自称工程师，在国外工作，要将60万元奖金邮寄给鲁某保管，但需要鲁某交5000元的海关费。随后鲁某到银行柜台向对方...",
+    "scam_type": "婚恋交友诈骗",
+    "scenario": "情感关系诱导转账",
+    "target_group": [
+      "单身人群",
+      "空巢独居型"
+    ],
+    "key_phrases": [
+      "我对你是真心的",
+      "包裹被扣需要交税",
+      "先帮我周转一下"
+    ],
+    "red_flags": [
+      "短时间建立亲密关系",
+      "很快开始谈钱",
+      "以包裹、就医或困难为由索要转账"
+    ],
+    "counter_measures": [
+      "陌生关系涉及金钱一律先停",
+      "先核实真实身份和现实关系",
+      "与家人沟通后再决定"
+    ],
+    "emergency_actions": [
+      "停止继续付款",
+      "保留聊天和账户信息",
+      "及时报警"
+    ],
+    "psychological_trap": "利用情感依赖和同情心",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-03-01",
+    "incident_month": "2025-03",
+    "region": "红河州",
+    "loss_amount_cny": 600000.0,
+    "heat_score": 89,
+    "heat_level": "极高",
+    "raw_content": "2025年3月，鲁某在某社交平台上认识一陌生男子，随后相互添加好友，并确立恋爱关系，对方自称工程师，在国外工作，要将60万元奖金邮寄给鲁某保管，但需要鲁某交5000元的海关费。随后鲁某到银行柜台向对方提供的账户汇款5000元，后发现被骗。",
+    "suspect_region_scope": "疑似境外或境外协同网络团伙",
+    "suspect_region_confidence": "中",
+    "suspect_region_basis": "案情提到：国外"
+  },
+  {
+    "id": "0287e660",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400849",
+    "processed_at": "2026-04-26T23:17:28.421193",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "刷单返利类诈骗",
+    "summary": "该类手法主要针对学生、宝妈等待业或有兼职需求的群体，发案最多，约占\n30%。诈骗分子首先通过短信、社交软件、短视频平台等发布兼职广告，或以“免费送礼”名义拉受害人进群，让其完成简单任务，并支付小额佣金...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-03-01",
+    "incident_month": "2025-03",
+    "region": "重庆市",
+    "loss_amount_cny": 95000.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "该类手法主要针对学生、宝妈等待业或有兼职需求的群体，发案最多，约占\n30%。诈骗分子首先通过短信、社交软件、短视频平台等发布兼职广告，或以“免费送礼”名义拉受害人进群，让其完成简单任务，并支付小额佣金以博取受害人信任；随后群内“媒子”晒出高额收益的截图，诱骗受害人下载虚假APP，并充值完成“进阶任务”；最后以“任务未完成”“账号冻结”等理由，要求受害人持续充值，从而达到诈骗目的。如今年3月，赵某在短视频平台上通过扫描二维码加入陌生支付宝群，下载虚假APP充值“做任务”，被骗充值9.5万元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：短视频平台"
+  },
+  {
+    "id": "a52de7be",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T22:44:33.964186",
+    "processed_at": "2026-04-26T22:44:39.190939",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "兼职刷单类诈骗",
+    "summary": "案例经过：2025年3月，一位群众网上应聘时，被人添加微信，对方称在京东购买东西可返利。该群众从3月28日起在京东购买37284元物品，后对方称其信用不通过，需交付50000元才能提取报酬，该群众转账...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "新源县",
+    "source_year": 2025,
+    "incident_date": "2025-03-01",
+    "incident_month": "2025-03",
+    "region": "新源县",
+    "loss_amount_cny": 85741.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "案例经过：2025年3月，一位群众网上应聘时，被人添加微信，对方称在京东购买东西可返利。该群众从3月28日起在京东购买37284元物品，后对方称其信用不通过，需交付50000元才能提取报酬，该群众转账4万多元后，对方失联，导致被骗损失85741元。\n\n诈骗手段解析：1.低门槛高回报诱惑：以刷单流程简单、高额佣金为诱饵，吸引受害人参与。2.逐步深入诈骗：先用小额刷单及时返款建立信任，再安排大额任务，要求一次性支付多笔订单费用。3.制造障碍骗钱：以各种理由拒绝返款，要求受害人继续刷单或缴纳费用“解冻”，使其越陷越深。"
+  },
+  {
+    "id": "43631ab1",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413918",
+    "processed_at": "2026-04-26T23:17:28.422114",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假网络贷款诈骗",
+    "summary": "2025年2月，许某在上班时收到一短信，短信称点击网址可以高额借款，无需抵押并附有链接，许某点击链接进入贷款网页申请贷款。在许某进入网页并输入相关信息后，对方称许某输入的卡号错误，贷款资金被冻结，需缴...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-02-01",
+    "incident_month": "2025-02",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 49,
+    "heat_level": "关注",
+    "raw_content": "2025年2月，许某在上班时收到一短信，短信称点击网址可以高额借款，无需抵押并附有链接，许某点击链接进入贷款网页申请贷款。在许某进入网页并输入相关信息后，对方称许某输入的卡号错误，贷款资金被冻结，需缴纳认证金用于解冻贷款资金，随后，许某通过银行卡向对方转账，并根据对方提供的账号在某APP上付款购买商品，在对方继续让许某进行转账时，许某才意识到被骗。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向红河州外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "64861731",
+    "source_url": "https://gaj.cq.gov.cn/sy_245/bmdt/202507/t20250721_14831822.html",
+    "source_name": "重庆市公安局",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:27.400935",
+    "processed_at": "2026-04-26T23:17:28.421517",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假网络投资理财诈骗",
+    "summary": "该类手法单案损失金额较高，主要针对有一定资产和收入，且有投资需求的群体。诈骗分子首先在公众号或婚恋等平台，伪装成投资导师或网恋对象，骗取受害人信任后，以高额回报为诱饵，引导受害人下载虚假投资软件，通过...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老年人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "重庆市",
+    "source_year": 2025,
+    "incident_date": "2025-02-01",
+    "incident_month": "2025-02",
+    "region": "重庆市",
+    "loss_amount_cny": 1000000.0,
+    "heat_score": 84,
+    "heat_level": "高",
+    "raw_content": "该类手法单案损失金额较高，主要针对有一定资产和收入，且有投资需求的群体。诈骗分子首先在公众号或婚恋等平台，伪装成投资导师或网恋对象，骗取受害人信任后，以高额回报为诱饵，引导受害人下载虚假投资软件，通过小额返还的\n“甜头”诱骗受害人持续加大投入；最终以“系统异常”“账户冻结”为由索要“解冻费”，直至受害人发现被骗。如今年2月，张某通过某公众号下载理财软件学习炒股课程，被所谓的“荐股专家”诱导至虚假投资网站充值炒股，被骗100万元。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "ab31fdc7",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.591697",
+    "processed_at": "2026-04-26T23:17:28.420843",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "助学金/奖学金诈骗",
+    "summary": "核心套路：冒充教育部门、学校或基金会工作人员，以发放“助学金”、“奖学金”为由，要求受害人提供银行卡信息或先缴纳“手续费”、“激活费”。\n\n警示案例：大学新生小孙接到“教育局”电话，通知其获得助学金，...",
+    "scam_type": "助学金诈骗",
+    "scenario": "假冒教育补助发放",
+    "target_group": [
+      "学生家庭",
+      "信息核验能力弱的人群"
+    ],
+    "key_phrases": [
+      "已获得助学金",
+      "先缴手续费激活",
+      "打到指定账户后发放"
+    ],
+    "red_flags": [
+      "发钱前先收费",
+      "电话要求转账激活",
+      "不通过学校官方渠道通知"
+    ],
+    "counter_measures": [
+      "只通过学校官方渠道办理",
+      "国家奖助学金不会先收费",
+      "先联系老师或学校核实"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "保留电话和转账截图",
+      "及时报警"
+    ],
+    "psychological_trap": "利用对福利机会的期待和信息差",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 5000.0,
+    "heat_score": 45,
+    "heat_level": "关注",
+    "raw_content": "核心套路：冒充教育部门、学校或基金会工作人员，以发放“助学金”、“奖学金”为由，要求受害人提供银行卡信息或先缴纳“手续费”、“激活费”。\n\n警示案例：大学新生小孙接到“教育局”电话，通知其获得助学金，但需先支付5000元“手续费”到指定账户激活。小孙转账后，助学金杳无音信。\n\n防范提醒：国家及学校发放的奖助学金均不要求学生预先缴费！申领务必通过学校官方渠道咨询办理，切勿向陌生账户转账。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向华容县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "9ba3a67b",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.590026",
+    "processed_at": "2026-04-26T23:17:28.420765",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "网络游戏产品虚假交易诈骗",
+    "summary": "核心套路：在游戏内或社交平台发布低价出售游戏账号、装备、点卡广告，诱导受害人脱离官方平台交易；或冒充客服以“解冻账户”、“缴纳保证金”等名义诈骗。\n\n警示案例：中学生小赵欲购买“限量皮肤”，在非官方平...",
+    "scam_type": "游戏交易诈骗",
+    "scenario": "非官方游戏道具交易",
+    "target_group": [
+      "未成年人家庭",
+      "游戏用户"
+    ],
+    "key_phrases": [
+      "免费送装备",
+      "低价卖皮肤账号",
+      "账户冻结需充值解冻"
+    ],
+    "red_flags": [
+      "脱离官方平台交易",
+      "要求用家长手机操作",
+      "以解冻保证金名义收费"
+    ],
+    "counter_measures": [
+      "只走官方交易渠道",
+      "家长设备不交给孩子处理陌生活动",
+      "拒绝任何先充值解冻要求"
+    ],
+    "emergency_actions": [
+      "解绑银行卡或止付",
+      "保留聊天和支付记录",
+      "及时报警"
+    ],
+    "psychological_trap": "利用免费获得和低价捡漏心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 21000.0,
+    "heat_score": 56,
+    "heat_level": "中",
+    "raw_content": "核心套路：在游戏内或社交平台发布低价出售游戏账号、装备、点卡广告，诱导受害人脱离官方平台交易；或冒充客服以“解冻账户”、“缴纳保证金”等名义诈骗。\n\n警示案例：中学生小赵欲购买“限量皮肤”，在非官方平台交易时，卖家称其“账户被冻结需充值解冻”。小赵用母亲手机多次转账共计2.1万元，皮肤未到手。\n\n防范提醒：买卖游戏账号、道具务必通过官方认证渠道！切勿轻信低价广告，拒绝私下交易。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：社交平台"
+  },
+  {
+    "id": "880208d7",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589965",
+    "processed_at": "2026-04-26T23:17:28.420691",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充领导/熟人诈骗",
+    "summary": "核心套路：盗用领导、熟人微信/QQ头像、昵称，或使用AI换脸、拟声技术伪造视频/语音，以“项目款急用”、“帮领导转账”等为由，诱骗财务人员或普通员工转账。\n\n警示案例：某公司财务林女士收到“董事长”微...",
+    "scam_type": "冒充领导 / 熟人诈骗",
+    "scenario": "熟人身份伪装转账",
+    "target_group": [
+      "财务人员",
+      "重关系信任的人群"
+    ],
+    "key_phrases": [
+      "紧急转一笔款",
+      "这是领导交代的",
+      "不要走正常流程"
+    ],
+    "red_flags": [
+      "只发消息不接电话",
+      "绕开审批流程",
+      "突然要求大额转账"
+    ],
+    "counter_measures": [
+      "转账前电话或当面核实",
+      "坚持审批流程",
+      "涉及领导指令也先复核"
+    ],
+    "emergency_actions": [
+      "立刻联系收款行止付",
+      "同步通知公司和警方",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用权威服从和熟人信任心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 850000.0,
+    "heat_score": 76,
+    "heat_level": "高",
+    "raw_content": "核心套路：盗用领导、熟人微信/QQ头像、昵称，或使用AI换脸、拟声技术伪造视频/语音，以“项目款急用”、“帮领导转账”等为由，诱骗财务人员或普通员工转账。\n\n警示案例：某公司财务林女士收到“董事长”微信消息，要求紧急支付一笔85万元的“合同保证金”至指定账户。林女士未经电话核实直接转账，后发现“董事长”是骗子冒充。\n\n防范提醒：转账汇款前务必通过电话或当面核实对方身份！财务人员须严格遵守转账审批制度，警惕“特事特办”要求。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向华容县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "b7b295b6",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589895",
+    "processed_at": "2026-04-26T23:17:28.420616",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "裸聊敲诈诈骗",
+    "summary": "核心套路：通过社交软件诱导受害人视频裸聊并录制不雅视频，同时窃取手机通讯录，以向亲友群发视频为要挟，逼迫受害人转账。\n\n警示案例：公司职员吴先生深夜在陌生社交APP上被“美女”搭讪，短暂视频裸聊后被对...",
+    "scam_type": "色情服务 / 裸聊敲诈诈骗",
+    "scenario": "交友诱导和敲诈转账",
+    "target_group": [
+      "独居人群",
+      "情感空虚人群"
+    ],
+    "key_phrases": [
+      "免费上门服务",
+      "完成任务后安排见面",
+      "不给钱就曝光"
+    ],
+    "red_flags": [
+      "陌生交友 App 主动露骨聊天",
+      "以任务名义要求转账",
+      "威胁曝光或失联"
+    ],
+    "counter_measures": [
+      "不安装陌生交友软件",
+      "不参与任何色情服务交易",
+      "遭遇威胁先报警不转账"
+    ],
+    "emergency_actions": [
+      "停止继续付款",
+      "保存聊天截图",
+      "尽快报警求助"
+    ],
+    "psychological_trap": "利用好奇心、羞耻感和害怕曝光心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 35000.0,
+    "heat_score": 51,
+    "heat_level": "关注",
+    "raw_content": "核心套路：通过社交软件诱导受害人视频裸聊并录制不雅视频，同时窃取手机通讯录，以向亲友群发视频为要挟，逼迫受害人转账。\n\n警示案例：公司职员吴先生深夜在陌生社交APP上被“美女”搭讪，短暂视频裸聊后被对方发来不雅视频及通讯录截图勒索，被迫转账3.5万元“封口费”。\n\n防范提醒：洁身自好，健康上网！切勿随意添加陌生好友，更不要进行视频裸聊。遇此情况立即报警，切勿转账。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向华容县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "b100b828",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589834",
+    "processed_at": "2026-04-26T23:17:28.420542",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "注销校园贷/调整征信诈骗",
+    "summary": "核心套路：冒充金融平台、银行或监管部门客服，谎称受害人有过“校园贷”记录需注销，或声称征信不良可帮忙修复，诱导其到网贷平台借款并转入“安全账户”进行“资金清算”。\n\n警示案例：刚毕业的小刘接到“银监会...",
+    "scam_type": "征信修复 / 校园贷诈骗",
+    "scenario": "虚假征信消除",
+    "target_group": [
+      "技术懵懂型",
+      "容易焦虑的人群"
+    ],
+    "key_phrases": [
+      "帮你消除记录",
+      "否则影响征信",
+      "需要先借款转到指定账户"
+    ],
+    "red_flags": [
+      "能准确说出个人信息",
+      "以征信为由施压",
+      "要求多平台借款后转账"
+    ],
+    "counter_measures": [
+      "征信问题只通过官方渠道处理",
+      "不按电话指示借款转账",
+      "先联系家人核实"
+    ],
+    "emergency_actions": [
+      "停止借款和转账",
+      "联系贷款平台和银行",
+      "保存通话证据报警"
+    ],
+    "psychological_trap": "利用对征信影响的恐惧心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 180000.0,
+    "heat_score": 66,
+    "heat_level": "中",
+    "raw_content": "核心套路：冒充金融平台、银行或监管部门客服，谎称受害人有过“校园贷”记录需注销，或声称征信不良可帮忙修复，诱导其到网贷平台借款并转入“安全账户”进行“资金清算”。\n\n警示案例：刚毕业的小刘接到“银监会工作人员”电话，称其名下学生贷记录影响征信，需立即清理。恐慌之下，小刘按指示从多个网贷平台借款18万元转入“清算账户”，损失惨重。\n\n防范提醒：个人征信由中国人民银行统一管理，无法人为“修复”或“注销”。凡以影响征信为由要求转账或借贷的，均为诈骗！",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向华容县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "938bd039",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589765",
+    "processed_at": "2026-04-26T23:17:28.420464",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假网络贷款诈骗",
+    "summary": "核心套路：以“无抵押、低利息、秒放款”为噱头吸引受害人，后以“银行卡号错误需解冻”、“刷流水验资”、“缴纳保证金”等名义要求转账，不放款仍持续索要费用。\n\n警示案例：个体商户张先生因急需资金周转，在网...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 123000.0,
+    "heat_score": 74,
+    "heat_level": "高",
+    "raw_content": "核心套路：以“无抵押、低利息、秒放款”为噱头吸引受害人，后以“银行卡号错误需解冻”、“刷流水验资”、“缴纳保证金”等名义要求转账，不放款仍持续索要费用。\n\n警示案例：个体商户张先生因急需资金周转，在网上申请贷款。对方以“账户异常需解冻”为由，诱使其多次转账“验证资金”共计12.3万元，贷款始终未到账。\n\n防范提醒：凡贷款放款前要求缴费（解冻费、保证金、验资费）的，一律是诈骗！正规贷款机构不会在放款前收取任何费用。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向华容县外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "7efb13ca",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589704",
+    "processed_at": "2026-04-26T23:17:28.420377",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充电商物流客服诈骗",
+    "summary": "核心套路：冒充电商平台、快递公司客服，谎称商品质量问题、快递丢失或误开通会员/服务，以“退款理赔”、“取消扣费”为由，诱导受害人下载屏幕共享软件或点击钓鱼链接，窃取账户密码、验证码盗转资金。\n\n警示案...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 58000.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "核心套路：冒充电商平台、快递公司客服，谎称商品质量问题、快递丢失或误开通会员/服务，以“退款理赔”、“取消扣费”为由，诱导受害人下载屏幕共享软件或点击钓鱼链接，窃取账户密码、验证码盗转资金。\n\n警示案例：广州网购达人小陈接到“某宝客服”电话，称其包裹丢失可获双倍赔付。小陈按对方指引下载“理赔”APP并开启屏幕共享，银行卡内5.8万元被瞬间转空。\n\n防范提醒：任何退款、理赔、取消业务均应通过官方APP或平台内渠道操作！切勿下载陌生软件、共享屏幕或透露验证码。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：共享屏幕"
+  },
+  {
+    "id": "51b06c71",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589642",
+    "processed_at": "2026-04-26T23:17:28.420280",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假投资理财诈骗",
+    "summary": "核心套路：打造虚假“成功人士”人设，通过婚恋交友或社交平台建立情感信任，诱导受害人在虚假平台进行“投资”（股票、期货、虚拟货币等），初期或允以小利，最终卷款消失。\n\n警示案例：杭州退休教师李阿姨在某社...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老年人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 620000.0,
+    "heat_score": 84,
+    "heat_level": "高",
+    "raw_content": "核心套路：打造虚假“成功人士”人设，通过婚恋交友或社交平台建立情感信任，诱导受害人在虚假平台进行“投资”（股票、期货、虚拟货币等），初期或允以小利，最终卷款消失。\n\n警示案例：杭州退休教师李阿姨在某社交平台结识“贴心男友”，在其诱导下于“某国际证券”平台投资养老积蓄。前期小额盈利成功提现后，李阿姨追加投入共计62万元，平台瞬间关闭，“男友”人间蒸发。\n\n防范提醒：网络交友需谨慎，凡诱导至陌生平台投资理财的，必是“杀猪盘”！高收益伴随高风险，不明平台绝不投入。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：社交平台"
+  },
+  {
+    "id": "623033f6",
+    "source_url": "https://www.huarong.gov.cn/33159/37006/37008/37049/37355/content_2329542.html",
+    "source_name": "华容县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:25.589552",
+    "processed_at": "2026-04-26T23:17:28.420202",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "刷单返利诈骗",
+    "summary": "核心套路：以“轻松赚钱”、“日结高薪”为诱饵，先施以小利骗取信任，后诱导垫付大额资金进行“任务”，最终以各种理由拒绝返款并拉黑消失。\n\n警示案例：深圳某公司职员小王，被“短视频点赞赚钱”广告吸引，初尝...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "华容县",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "华容县",
+    "loss_amount_cny": 87000.0,
+    "heat_score": 67,
+    "heat_level": "中",
+    "raw_content": "核心套路：以“轻松赚钱”、“日结高薪”为诱饵，先施以小利骗取信任，后诱导垫付大额资金进行“任务”，最终以各种理由拒绝返款并拉黑消失。\n\n警示案例：深圳某公司职员小王，被“短视频点赞赚钱”广告吸引，初尝甜头获利百余元。随后被诱骗垫资进行“高级任务”，累计投入8.7万元后，平台无法提现，客服失联，辛苦积蓄化为乌有。\n\n防范提醒：所有宣称“刷单赚钱”、“点赞返利”的行为均属诈骗！天上不会掉馅饼，贪图小利必吃大亏。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：诈骗类型更常见于异地网络作案"
+  },
+  {
+    "id": "5044ea80",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413953",
+    "processed_at": "2026-04-26T23:17:28.423009",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充网络客服诈骗",
+    "summary": "2025年1月，高某接到自称某社交平台客服的来电，称高某的账号下存在一个短视频直播带货功能，如果不关闭的话将每月扣800元。高某信以为真，便在对方引导下操作手机，导致手机黑屏，后被诱骗进行人脸识别、输...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "红河州",
+    "loss_amount_cny": 800.0,
+    "heat_score": 53,
+    "heat_level": "关注",
+    "raw_content": "2025年1月，高某接到自称某社交平台客服的来电，称高某的账号下存在一个短视频直播带货功能，如果不关闭的话将每月扣800元。高某信以为真，便在对方引导下操作手机，导致手机黑屏，后被诱骗进行人脸识别、输入银行卡信息及验证码，随后，高某银行卡内的资金被转走。",
+    "suspect_region_scope": "疑似跨区域远程网络作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情依赖线上联系、远控或平台引流等特征：社交平台"
+  },
+  {
+    "id": "52ff1b06",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413894",
+    "processed_at": "2026-04-26T23:17:28.422032",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假服务诈骗",
+    "summary": "2025年1月，汪某通过某平台与一网友加为好友，对方告知汪某可以网上报名考摩托车驾照，并发一个APP下载链接，让汪某点击下载，后用另一手机与对方微信视频，在对方指导下在APP内操作，后对方通过远程操控...",
+    "scam_type": "虚假购物服务诈骗",
+    "scenario": "脱离平台私下交易",
+    "target_group": [
+      "网购人群",
+      "热衷抢票和代购的人群"
+    ],
+    "key_phrases": [
+      "内部渠道更便宜",
+      "私下转账省手续费",
+      "下单后马上帮你处理"
+    ],
+    "red_flags": [
+      "要求脱离平台私聊",
+      "承诺特殊渠道或内部票",
+      "要求直接转到个人账户"
+    ],
+    "counter_measures": [
+      "交易只走官方平台",
+      "不信低价内部渠道",
+      "不为抢票代购私下转账"
+    ],
+    "emergency_actions": [
+      "停止继续支付",
+      "保留聊天和订单信息",
+      "联系平台和警方"
+    ],
+    "psychological_trap": "利用稀缺感和捡漏心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2025-01-01",
+    "incident_month": "2025-01",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 41,
+    "heat_level": "关注",
+    "raw_content": "2025年1月，汪某通过某平台与一网友加为好友，对方告知汪某可以网上报名考摩托车驾照，并发一个APP下载链接，让汪某点击下载，后用另一手机与对方微信视频，在对方指导下在APP内操作，后对方通过远程操控汪某手机，用微信以汪某受伤住院为由向其多个好友借款，好友转账的钱与汪某微信里的账户余额均在对方操作下被转走。",
+    "suspect_region_scope": "暂无法从公开细节锁定，倾向红河州外部的网络化作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "公开案情更多反映受害场景和诈骗手法，缺少可直接指向嫌疑人物理位置的线索。"
+  },
+  {
+    "id": "2a71eb7a",
+    "source_url": "https://www.hh.gov.cn/info/26121/1190832.htm",
+    "source_name": "红河州人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:28.413992",
+    "processed_at": "2026-04-26T23:17:28.423757",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假购物诈骗",
+    "summary": "2024年10月，马某接到“学校老师”订购60杯奶茶的千元订单，对方以订单金额较大为由，让马某加其QQ转账。马某把银行卡号发给对方后，对方并未付款，却让马某帮忙采购燕窝并承诺分红，并将“商家”的联系方...",
+    "scam_type": "虚假购物服务诈骗",
+    "scenario": "脱离平台私下交易",
+    "target_group": [
+      "网购人群",
+      "热衷抢票和代购的人群"
+    ],
+    "key_phrases": [
+      "内部渠道更便宜",
+      "私下转账省手续费",
+      "下单后马上帮你处理"
+    ],
+    "red_flags": [
+      "要求脱离平台私聊",
+      "承诺特殊渠道或内部票",
+      "要求直接转到个人账户"
+    ],
+    "counter_measures": [
+      "交易只走官方平台",
+      "不信低价内部渠道",
+      "不为抢票代购私下转账"
+    ],
+    "emergency_actions": [
+      "停止继续支付",
+      "保留聊天和订单信息",
+      "联系平台和警方"
+    ],
+    "psychological_trap": "利用稀缺感和捡漏心理",
+    "source_region": "红河州",
+    "source_year": 2025,
+    "incident_date": "2024-10-01",
+    "incident_month": "2024-10",
+    "region": "红河州",
+    "loss_amount_cny": 0.0,
+    "heat_score": 38,
+    "heat_level": "关注",
+    "raw_content": "2024年10月，马某接到“学校老师”订购60杯奶茶的千元订单，对方以订单金额较大为由，让马某加其QQ转账。马某把银行卡号发给对方后，对方并未付款，却让马某帮忙采购燕窝并承诺分红，并将“商家”的联系方式推给马某，让其先垫付，后同奶茶的钱一并支付。随后马某向“商家”转账，对方却以需2小时到账为由拖延，迟迟未付款，马某这才意识到被骗。",
+    "suspect_region_scope": "疑似本地或周边市县配合作案",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现“学校老师”等本地接触线索。"
+  },
+  {
+    "id": "bcca1d19",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784969",
+    "processed_at": "2026-04-26T23:17:28.418877",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "仿冒证券投资诈骗",
+    "summary": "2022年2月，河北省某市受害人胡某看到炒股广告，下载“平安证券”仿冒APP进行相关投资操作，开始投入小金额盈利并提现成功，遂加大投资金额，最后提现失败，合计被骗50万元。",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老年人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2022-02-01",
+    "incident_month": "2022-02",
+    "region": "全国",
+    "loss_amount_cny": 500000.0,
+    "heat_score": 78,
+    "heat_level": "高",
+    "raw_content": "2022年2月，河北省某市受害人胡某看到炒股广告，下载“平安证券”仿冒APP进行相关投资操作，开始投入小金额盈利并提现成功，遂加大投资金额，最后提现失败，合计被骗50万元。",
+    "suspect_region_scope": "疑似异地作案，可能与河北省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
+  },
+  {
+    "id": "323a10bb",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784771",
+    "processed_at": "2026-04-26T23:17:28.418441",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "仿冒贷款 App 诈骗",
+    "summary": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2022-02-01",
+    "incident_month": "2022-02",
+    "region": "全国",
+    "loss_amount_cny": 50000.0,
+    "heat_score": 61,
+    "heat_level": "中",
+    "raw_content": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪某某先后多次转账，合计被骗5万元。",
+    "suspect_region_scope": "疑似异地作案，可能与江西省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
+  },
+  {
+    "id": "11bd4cf5",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T22:44:34.904857",
+    "processed_at": "2026-04-26T22:44:39.191086",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "仿冒贷款 APP 诈骗",
+    "summary": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2022-02-01",
+    "incident_month": "2022-02",
+    "region": "全国",
+    "loss_amount_cny": 50000.0,
+    "heat_score": 61,
+    "heat_level": "中",
+    "raw_content": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪某某先后多次转账，合计被骗5万元。"
+  },
+  {
+    "id": "ba2f5985",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784993",
+    "processed_at": "2026-04-26T23:17:28.418939",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "校园贷 / 征信修复诈骗",
+    "summary": "2022年1月，湖北省某市张某某接到陌生电话，对方自称是某平台客服，能准确说出张某某个人信息，并表示要帮张某某消除“校园贷”记录，否则会影响个人征信。张某某按照对方要求向多个网贷平台借款，并分别转到对...",
+    "scam_type": "征信修复 / 校园贷诈骗",
+    "scenario": "虚假征信消除",
+    "target_group": [
+      "技术懵懂型",
+      "容易焦虑的人群"
+    ],
+    "key_phrases": [
+      "帮你消除记录",
+      "否则影响征信",
+      "需要先借款转到指定账户"
+    ],
+    "red_flags": [
+      "能准确说出个人信息",
+      "以征信为由施压",
+      "要求多平台借款后转账"
+    ],
+    "counter_measures": [
+      "征信问题只通过官方渠道处理",
+      "不按电话指示借款转账",
+      "先联系家人核实"
+    ],
+    "emergency_actions": [
+      "停止借款和转账",
+      "联系贷款平台和银行",
+      "保存通话证据报警"
+    ],
+    "psychological_trap": "利用对征信影响的恐惧心理",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2022-01-01",
+    "incident_month": "2022-01",
+    "region": "全国",
+    "loss_amount_cny": 60000.0,
+    "heat_score": 53,
+    "heat_level": "关注",
+    "raw_content": "2022年1月，湖北省某市张某某接到陌生电话，对方自称是某平台客服，能准确说出张某某个人信息，并表示要帮张某某消除“校园贷”记录，否则会影响个人征信。张某某按照对方要求向多个网贷平台借款，并分别转到对方提供的账户，合计损失6万元。",
+    "suspect_region_scope": "疑似异地作案，可能与湖北省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
+  },
+  {
+    "id": "915b147f",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784904",
+    "processed_at": "2026-04-26T23:17:28.418729",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充电商客服退款诈骗",
+    "summary": "2021年11月，四川省某市张某某接到谎称某电商的客服电话075xxx384，称张某某购买的尿不湿因质量问题可申请退款。张某某未通过官方渠道核实对方信息，按照对方指示进行转账操作，合计被骗7.5万元。",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老年人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立即停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2021-11-01",
+    "incident_month": "2021-11",
+    "region": "全国",
+    "loss_amount_cny": 75000.0,
+    "heat_score": 61,
+    "heat_level": "中",
+    "raw_content": "2021年11月，四川省某市张某某接到谎称某电商的客服电话075xxx384，称张某某购买的尿不湿因质量问题可申请退款。张某某未通过官方渠道核实对方信息，按照对方指示进行转账操作，合计被骗7.5万元。",
+    "suspect_region_scope": "疑似异地作案，可能与四川省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
+  },
+  {
+    "id": "fded5257",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784845",
+    "processed_at": "2026-04-26T23:17:28.418593",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "任务返现 / 刷单诈骗",
+    "summary": "2021年8月，江苏省某市方某某下载了“阿聊”APP和“汇龙支付”APP，参加所谓的“高额”任务返现活动。平台以连单任务、信誉不足为由让方某某先充钱再重启任务，方某某累计被骗11万元。",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2021-08-01",
+    "incident_month": "2021-08",
+    "region": "全国",
+    "loss_amount_cny": 110000.0,
+    "heat_score": 68,
+    "heat_level": "中",
+    "raw_content": "2021年8月，江苏省某市方某某下载了“阿聊”APP和“汇龙支付”APP，参加所谓的“高额”任务返现活动。平台以连单任务、信誉不足为由让方某某先充钱再重启任务，方某某累计被骗11万元。",
+    "suspect_region_scope": "疑似异地作案，可能与江苏省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
+  },
+  {
+    "id": "e4df7a47",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T23:17:23.784944",
+    "processed_at": "2026-04-26T23:17:28.418820",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充公检法安全账户诈骗",
+    "summary": "2021年6月，诈骗分子冒充浙江省某市派出所民警，联系郭某称其已涉嫌诈骗被立案，并要求郭某登录仿冒的某公安局官网查看立案信息，将资金转移到“安全账户”。郭某按照诈骗分子要求转账，合计被骗50余万元。",
+    "scam_type": "冒充公检法诈骗",
+    "scenario": "虚假办案 / 安全账户转账",
+    "target_group": [
+      "认知衰退型",
+      "容易紧张的老人"
+    ],
+    "key_phrases": [
+      "你涉嫌违法",
+      "必须转到安全账户",
+      "案件保密不能告诉家人"
+    ],
+    "red_flags": [
+      "电话办案",
+      "要求保密",
+      "要求转入安全账户"
+    ],
+    "counter_measures": [
+      "挂断后拨打 110 核实",
+      "任何安全账户都是骗局",
+      "先联系家人确认"
+    ],
+    "emergency_actions": [
+      "立刻止付",
+      "保存转账记录",
+      "马上报警"
+    ],
+    "psychological_trap": "利用恐惧和权威压制判断力",
+    "source_region": "全国",
+    "source_year": 2022,
+    "incident_date": "2021-06-01",
+    "incident_month": "2021-06",
+    "region": "全国",
+    "loss_amount_cny": 0.0,
+    "heat_score": 48,
+    "heat_level": "关注",
+    "raw_content": "2021年6月，诈骗分子冒充浙江省某市派出所民警，联系郭某称其已涉嫌诈骗被立案，并要求郭某登录仿冒的某公安局官网查看立案信息，将资金转移到“安全账户”。郭某按照诈骗分子要求转账，合计被骗50余万元。",
+    "suspect_region_scope": "疑似异地作案，可能与诈骗分子冒充浙江省某市有关",
+    "suspect_region_confidence": "低",
+    "suspect_region_basis": "案情出现了受害地之外的地名线索，但公开信息仍不足以锁定具体位置。"
   }
 ]

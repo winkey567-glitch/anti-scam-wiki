@@ -1,4 +1,4 @@
-"""根据 published/cases.json 生成静态案例页面。"""
+"""Generate static case pages from published cases."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ PUBLISHED_CASES_FILE = ROOT_DIR / "data" / "published" / "cases.json"
 
 
 def ensure_cases_file() -> list[dict]:
-    """确保 cases.json 存在，并返回其内容。"""
+    """Ensure cases.json exists and return its content."""
     PUBLISHED_CASES_FILE.parent.mkdir(parents=True, exist_ok=True)
     if not PUBLISHED_CASES_FILE.exists():
         PUBLISHED_CASES_FILE.write_text("[]\n", encoding="utf-8")
@@ -26,20 +26,27 @@ def ensure_cases_file() -> list[dict]:
 
 
 def format_list(items: list[str]) -> str:
-    """把字符串列表转换成 Markdown 列表。"""
+    """Convert a string list into a Markdown list."""
     if not items:
         return "- 暂无"
-
     return "\n".join(f"- {item}" for item in items if item)
 
 
 def case_slug(case: dict) -> str:
-    """生成稳定的案例页面文件名。"""
+    """Generate a stable case page filename."""
     return case.get("id", "unknown-case")
 
 
+def format_currency(amount: float) -> str:
+    if amount >= 10000:
+        return f"{amount / 10000:.1f} 万元"
+    if amount > 0:
+        return f"{int(amount)} 元"
+    return "未披露"
+
+
 def render_case_page(case: dict) -> str:
-    """渲染单个案例详情页。"""
+    """Render a single case detail page."""
     title = case.get("title") or "未命名案例"
     summary = case.get("summary") or "暂无摘要。"
     source_url = case.get("source_url") or ""
@@ -47,9 +54,15 @@ def render_case_page(case: dict) -> str:
     scenario = case.get("scenario") or "待识别"
     scam_type = case.get("scam_type") or "待分类"
     psychological_trap = case.get("psychological_trap") or "待分析"
-    target_group = ", ".join(case.get("target_group", []) or ["待分析"])
+    target_group = "、".join(case.get("target_group", []) or ["待分析"])
     crawled_at = case.get("crawled_at", "")
-
+    incident_date = case.get("incident_date") or "待识别"
+    region = case.get("region") or case.get("source_region") or "待识别"
+    heat = f"{case.get('heat_level', '关注')}（{case.get('heat_score', 0)} 分）"
+    loss_amount = format_currency(case.get("loss_amount_cny", 0))
+    suspect_region_scope = case.get("suspect_region_scope") or "暂无法研判"
+    suspect_region_confidence = case.get("suspect_region_confidence") or "低"
+    suspect_region_basis = case.get("suspect_region_basis") or "公开案情缺少可直接锁定嫌疑人所在区域的线索。"
     source_line = f"[{source_name}]({source_url})" if source_url else source_name
 
     return f"""# {title}
@@ -61,6 +74,12 @@ def render_case_page(case: dict) -> str:
 - 诈骗类型：{scam_type}
 - 具体场景：{scenario}
 - 目标人群：{target_group}
+- 发生时间：{incident_date}
+- 所属区域：{region}
+- 热度等级：{heat}
+- 涉及金额：{loss_amount}
+- 嫌疑人区域范围：{suspect_region_scope}
+- 研判把握度：{suspect_region_confidence}
 - 心理弱点：{psychological_trap}
 - 数据来源：{source_line}
 - 抓取时间：{crawled_at or "未知"}
@@ -81,6 +100,12 @@ def render_case_page(case: dict) -> str:
 
 {format_list(case.get("emergency_actions", []))}
 
+## 嫌疑人区域研判
+
+- 范围判断：{suspect_region_scope}
+- 把握度：{suspect_region_confidence}
+- 依据：{suspect_region_basis}
+
 ## 原始说明
 
 本页由自动化脚本生成，适合作为后续人工审核和整理的基础版本。
@@ -88,14 +113,13 @@ def render_case_page(case: dict) -> str:
 
 
 def render_latest_page(cases: list[dict]) -> str:
-    """渲染案例汇总页。"""
+    """Render the latest case summary page."""
     if not cases:
         return """# 最新案例
 
 当前还没有正式入库的案例。
 
 你可以先查看：
-
 - [诈骗场景总览](/scenarios/)
 - [人群分类总览](/profiles/)
 - [案例库说明](/cases/)
@@ -105,6 +129,10 @@ def render_latest_page(cases: list[dict]) -> str:
         "# 最新案例",
         "",
         "以下页面由 `data/published/cases.json` 自动生成，适合持续补充和人工审核。",
+        "",
+        "- [按时间查看](/cases/by-time)",
+        "- [按热度查看](/cases/by-heat)",
+        "- [按区域查看](/cases/by-region)",
         "",
     ]
 
@@ -116,11 +144,13 @@ def render_latest_page(cases: list[dict]) -> str:
             [
                 f"## [{title}](/cases/generated/{slug})",
                 "",
-                f"{summary}",
+                summary,
                 "",
                 f"- 诈骗类型：{case.get('scam_type') or '待分类'}",
-                f"- 目标人群：{', '.join(case.get('target_group', []) or ['待分析'])}",
-                f"- 来源：{case.get('source_name') or '未知来源'}",
+                f"- 目标人群：{'、'.join(case.get('target_group', []) or ['待分析'])}",
+                f"- 所属区域：{case.get('region') or case.get('source_region') or '待识别'}",
+                f"- 嫌疑人范围：{case.get('suspect_region_scope') or '暂无法研判'}",
+                f"- 热度等级：{case.get('heat_level', '关注')}（{case.get('heat_score', 0)} 分）",
                 "",
             ]
         )
@@ -129,10 +159,9 @@ def render_latest_page(cases: list[dict]) -> str:
 
 
 def render_generated_index(cases: list[dict]) -> str:
-    """渲染 generated 目录索引页。"""
+    """Render the generated directory index page."""
     count = len(cases)
     updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
     lines = [
         "# 自动生成案例页",
         "",
@@ -140,6 +169,9 @@ def render_generated_index(cases: list[dict]) -> str:
         f"最近生成时间：{updated_at}",
         "",
         "- [查看最新案例汇总](/cases/latest)",
+        "- [按时间查看](/cases/by-time)",
+        "- [按热度查看](/cases/by-heat)",
+        "- [按区域查看](/cases/by-region)",
         "",
     ]
 
@@ -159,11 +191,11 @@ def write_text(path: Path, content: str) -> None:
 
 
 def generate_case_pages(cases: list[dict] | None = None) -> None:
-    """生成案例列表页和详情页。"""
+    """Generate case list pages and detail pages."""
     cases = ensure_cases_file() if cases is None else cases
     ordered_cases = sorted(
         cases,
-        key=lambda case: case.get("crawled_at", ""),
+        key=lambda case: case.get("incident_date") or case.get("crawled_at", ""),
         reverse=True,
     )
 
@@ -172,8 +204,7 @@ def generate_case_pages(cases: list[dict] | None = None) -> None:
     GENERATED_DIR.mkdir(parents=True, exist_ok=True)
 
     for case in ordered_cases:
-        slug = case_slug(case)
-        write_text(GENERATED_DIR / f"{slug}.md", render_case_page(case))
+        write_text(GENERATED_DIR / f"{case_slug(case)}.md", render_case_page(case))
 
     write_text(DOCS_CASES_DIR / "latest.md", render_latest_page(ordered_cases))
     write_text(GENERATED_DIR / "index.md", render_generated_index(ordered_cases))

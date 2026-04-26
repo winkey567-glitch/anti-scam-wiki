@@ -1,4 +1,6 @@
 <script setup>
+import { withBase } from 'vitepress'
+
 const phoneSecurity = [
   '关闭未知来源应用安装',
   '关闭自动下载彩信或未知附件',
@@ -77,7 +79,7 @@ const weeklyChecks = [
           <p>{{ item }}</p>
         </article>
       </div>
-      <a class="primary-button" href="/emergency">如果已经出事，先看应急处理指南</a>
+      <a class="primary-button" :href="withBase('/emergency')">如果已经出事，先看应急处理指南</a>
     </section>
   </div>
 </template>

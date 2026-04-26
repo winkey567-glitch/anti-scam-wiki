@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { scenarioContent } from '../content/scenarios'
 
 const props = defineProps({
@@ -7,6 +8,20 @@ const props = defineProps({
 })
 
 const content = computed(() => scenarioContent[props.slug])
+
+const linkLabelMap = {
+  '/emergency': '应急处理指南',
+  '/guide/communication': '沟通话术',
+  '/guide/checklist': '家庭防骗清单',
+  '/guide/emotional': '情绪支持',
+  '/profiles/health-anxiety': '健康焦虑型画像',
+  '/profiles/greedy': '贪小便宜型画像',
+  '/profiles/investor': '盲目投资型画像',
+  '/profiles/lonely': '孤独空巢型画像',
+  '/profiles/social': '热衷社交型画像',
+  '/profiles/tech-illiterate': '技术懵懂型画像',
+  '/cases/latest': '最新案例库'
+}
 </script>
 
 <template>
@@ -56,7 +71,7 @@ const content = computed(() => scenarioContent[props.slug])
     <section class="card-block next-links">
       <div class="section-head"><h2>继续查看</h2></div>
       <div class="link-row">
-        <a v-for="item in content.next" :key="item" :href="item">{{ item }}</a>
+        <a v-for="item in content.next" :key="item" :href="withBase(item)">{{ linkLabelMap[item] || item }}</a>
       </div>
     </section>
   </div>

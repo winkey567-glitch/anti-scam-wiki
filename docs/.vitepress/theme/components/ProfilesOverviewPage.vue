@@ -1,12 +1,14 @@
 <script setup>
+import { withBase } from 'vitepress'
+
 const profiles = [
-  ['孤独空巢型', '独居、缺陪伴、愿意和陌生人长时间聊天，容易被情感与关怀打动。', '情感诈骗、上门推销、假干儿子干女儿', '/profiles/lonely'],
-  ['健康焦虑型', '怕生病、爱养生、容易相信专家讲座和特效保健品。', '保健品诈骗、理疗仪器、虚假名医', '/profiles/health-anxiety'],
-  ['贪小便宜型', '节俭、喜欢领赠品、容易被免费和返利吸引。', '中奖送礼、扫码领福利、刷单返利', '/profiles/greedy'],
-  ['盲目投资型', '想让钱生钱，容易被高回报项目和熟人推荐吸引。', '养老理财、虚拟币、内部项目', '/profiles/investor'],
-  ['认知衰退型', '记忆力下降，辨别能力减弱，容易在压力下照做。', '冒充公检法、转账诈骗、验证码骗局', '/profiles/cognitive'],
-  ['热衷社交型', '爱进群、爱社交、爱旅游，容易被群体氛围带动。', '社群团购、旅游购物、熟人荐货', '/profiles/social'],
-  ['技术懵懂型', '不熟悉手机和支付操作，容易点错、扫错、装错。', '钓鱼链接、假 App、共享屏幕', '/profiles/tech-illiterate']
+  ['孤独空巢型', '独居、缺陪伴、愿意和陌生人长时间聊天，容易被情感与关怀打动。', '情感诈骗、上门推销、假干儿子干女儿', withBase('/profiles/lonely')],
+  ['健康焦虑型', '怕生病、爱养生、容易相信专家讲座和特效保健品。', '保健品诈骗、理疗仪器、虚假名医', withBase('/profiles/health-anxiety')],
+  ['贪小便宜型', '节俭、喜欢领赠品、容易被免费和返利吸引。', '中奖送礼、扫码领福利、刷单返利', withBase('/profiles/greedy')],
+  ['盲目投资型', '想让钱生钱，容易被高回报项目和熟人推荐吸引。', '养老理财、虚拟币、内部项目', withBase('/profiles/investor')],
+  ['认知衰退型', '记忆力下降，辨别能力减弱，容易在压力下照做。', '冒充公检法、转账诈骗、验证码骗局', withBase('/profiles/cognitive')],
+  ['热衷社交型', '爱进群、爱社交、爱旅游，容易被群体氛围带动。', '社群团购、旅游购物、熟人荐货', withBase('/profiles/social')],
+  ['技术懵懂型', '不熟悉手机和支付操作，容易点错、扫错、装错。', '钓鱼链接、假 App、共享屏幕', withBase('/profiles/tech-illiterate')]
 ]
 </script>
 
@@ -29,7 +31,7 @@ const profiles = [
     </section>
 
     <section class="card-block">
-      <div class="section-head"><h2>七类高风险画像</h2><a href="/quiz">先做 3 分钟测试 ›</a></div>
+      <div class="section-head"><h2>七类高风险画像</h2><a :href="withBase('/quiz')">先做 3 分钟测试 ›</a></div>
       <div class="profile-grid">
         <a v-for="[name, desc, scams, href] in profiles" :key="name" :href="href" class="profile-card">
           <h3>{{ name }}</h3>

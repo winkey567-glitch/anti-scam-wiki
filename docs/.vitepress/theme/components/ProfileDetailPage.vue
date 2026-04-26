@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { profileContent } from '../content/profiles'
 
 const props = defineProps({
@@ -47,8 +48,8 @@ const content = computed(() => profileContent[props.slug])
     <section class="card-block next-links">
       <div class="section-head"><h2>对应骗局场景</h2></div>
       <div class="link-row">
-        <a :href="content.scenarioLink">查看更像的诈骗场景 ›</a>
-        <a href="/guide/communication">查看沟通话术 ›</a>
+        <a :href="withBase(content.scenarioLink)">查看更像的诈骗场景 ›</a>
+        <a :href="withBase('/guide/communication')">查看沟通话术 ›</a>
       </div>
     </section>
   </div>

@@ -1,11 +1,15 @@
 <script setup>
+import { computed } from 'vue'
+import { withBase } from 'vitepress'
+import cases from '../../../../data/published/cases.json'
+
 const scenarioLinks = [
-  ['冒充客服退款', '/scenarios/fake-customer-service'],
-  ['冒充公检法', '/scenarios/fake-police'],
-  ['保健品诈骗', '/scenarios/health-products'],
-  ['中奖免费送礼', '/scenarios/free-gift'],
-  ['养老投资', '/scenarios/investment'],
-  ['情感诈骗', '/scenarios/romance']
+  ['冒充客服退款', withBase('/scenarios/fake-customer-service')],
+  ['冒充公检法', withBase('/scenarios/fake-police')],
+  ['保健品诈骗', withBase('/scenarios/health-products')],
+  ['中奖免费送礼', withBase('/scenarios/free-gift')],
+  ['养老投资', withBase('/scenarios/investment')],
+  ['情感诈骗', withBase('/scenarios/romance')]
 ]
 
 const contributionPoints = [
@@ -16,6 +20,10 @@ const contributionPoints = [
   '止损方式',
   '复盘教训'
 ]
+
+const caseCount = Array.isArray(cases) ? cases.length : 0
+const scamTypeCount = computed(() => new Set((cases || []).map((item) => item.scam_type).filter(Boolean)).size)
+const recentSourceCount = computed(() => new Set((cases || []).map((item) => item.source_name).filter(Boolean)).size)
 </script>
 
 <template>
@@ -29,20 +37,39 @@ const contributionPoints = [
       <div class="hero-side">
         <strong>现在可以直接进入</strong>
         <ul>
-          <li><a href="/cases/latest">最新案例汇总</a></li>
-          <li><a href="/cases/generated/">自动生成索引</a></li>
-          <li><a href="/scenarios/">按诈骗场景查找</a></li>
+          <li><a :href="withBase('/cases/latest')">最新案例汇总</a></li>
+          <li><a :href="withBase('/cases/by-time')">按时间查看</a></li>
+          <li><a :href="withBase('/cases/by-region')">按区域查看</a></li>
+          <li><a :href="withBase('/cases/generated/')">自动生成索引</a></li>
+          <li><a :href="withBase('/insights/')">趋势研判中心</a></li>
         </ul>
       </div>
+    </section>
+
+    <section class="card-block stats-row">
+      <article class="mini-stat">
+        <strong>{{ caseCount }}</strong>
+        <span>已入库案例</span>
+      </article>
+      <article class="mini-stat">
+        <strong>{{ scamTypeCount }}</strong>
+        <span>诈骗类型标签</span>
+      </article>
+      <article class="mini-stat">
+        <strong>{{ recentSourceCount }}</strong>
+        <span>官方来源</span>
+      </article>
     </section>
 
     <section class="card-block grid-two">
       <article class="sub-card">
         <h2>先从这里看</h2>
         <div class="entry-list">
-          <a href="/cases/latest">最新案例汇总 ›</a>
-          <a href="/cases/generated/">自动生成案例页 ›</a>
-          <a href="/profiles/">按父母类型查找 ›</a>
+          <a :href="withBase('/cases/latest')">最新案例汇总 ›</a>
+          <a :href="withBase('/cases/by-heat')">高热度案例 ›</a>
+          <a :href="withBase('/cases/by-region')">按区域查看 ›</a>
+          <a :href="withBase('/cases/generated/')">自动生成案例页 ›</a>
+          <a :href="withBase('/insights/trends')">看趋势分析 ›</a>
         </div>
       </article>
 
@@ -79,12 +106,16 @@ const contributionPoints = [
 .hero-side ul,.tips-box ul { margin:.8rem 0 0; padding-left:1.15rem; }
 .hero-side a,.entry-list a,.pill-link { color:#4d78da; text-decoration:none; font-weight:600; }
 .card-block { margin-top:1rem; padding:1.1rem; }
+.stats-row { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.mini-stat { padding:1rem; border:1px solid #e4ebff; border-radius:18px; background:linear-gradient(180deg,#fff,#fbfdff); text-align:center; }
+.mini-stat strong { display:block; font-size:2rem; color:#2f6de0; line-height:1; }
+.mini-stat span { display:block; margin-top:.45rem; color:#6e7a95; }
 .grid-two { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 .sub-card { padding:1rem; border:1px solid #e4ebff; border-radius:18px; background:linear-gradient(180deg,#fff,#fbfdff); }
 .entry-list { display:grid; gap:.75rem; margin-top:.8rem; }
 .pill-grid { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:.8rem; }
 .pill-link { padding:.55rem .8rem; border-radius:999px; border:1px solid #dce7ff; background:#fff; }
 .tips-box { padding:1rem; border:1px solid #dfe8ff; border-radius:16px; background:#fbfdff; }
-@media (max-width: 960px) { .page-hero,.grid-two { grid-template-columns:1fr; } }
+@media (max-width: 960px) { .page-hero,.stats-row,.grid-two { grid-template-columns:1fr; } }
 @media (max-width: 720px) { .page-shell { padding:.75rem .9rem 1.5rem; } }
 </style>

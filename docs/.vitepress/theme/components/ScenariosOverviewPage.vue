@@ -1,15 +1,20 @@
 <script setup>
+import { withBase } from 'vitepress'
+
 const scenarios = [
-  ['冒充客服退款', '快递丢失、商品退款、会员扣费等名义诱导下载 App 或共享屏幕', '网购用户', '/scenarios/fake-customer-service'],
-  ['冒充公检法', '用“涉嫌洗钱、账户冻结、安全账户”制造恐慌', '所有家庭', '/scenarios/fake-police'],
-  ['保健品诈骗', '用免费体检、养生讲座、特效药收割养老金', '健康焦虑型', '/scenarios/health-products'],
-  ['中奖免费送礼', '扫码领礼品、抽奖返现、免费福利引诱操作', '贪小便宜型', '/scenarios/free-gift'],
-  ['养老投资', '保本高息、内部项目、熟人荐股和养老理财骗局', '盲目投资型', '/scenarios/investment'],
-  ['情感诈骗', '网上交友、嘘寒问暖后借钱或诱导投资', '孤独空巢型', '/scenarios/romance'],
-  ['旅游团购', '低价旅行团、强制购物、熟人社群带货', '热衷社交型', '/scenarios/travel'],
-  ['AI换脸', '冒充子女或熟人视频通话借钱', '技术懵懂型', '/scenarios/ai-face'],
-  ['假冒熟人', '“我出事了”“先借我一笔钱”之类的熟人求助', '所有家庭', '/scenarios/fake-friend'],
-  ['刷单返利', '先小额返利，后要求不断垫资', '贪小便宜型', '/scenarios/brushing']
+  ['冒充客服退款', '快递丢失、商品退款、会员扣费等名义诱导下载 App 或共享屏幕', '网购用户', withBase('/scenarios/fake-customer-service')],
+  ['冒充公检法', '用“涉嫌洗钱、账户冻结、安全账户”制造恐慌', '所有家庭', withBase('/scenarios/fake-police')],
+  ['保健品诈骗', '用免费体检、养生讲座、特效药收割养老金', '健康焦虑型', withBase('/scenarios/health-products')],
+  ['中奖免费送礼', '扫码领礼品、抽奖返现、免费福利引诱操作', '贪小便宜型', withBase('/scenarios/free-gift')],
+  ['虚假购物服务', '内部票、代购、私下更便宜等理由引导脱离平台交易', '热衷社交型', withBase('/scenarios/fake-shopping-service')],
+  ['养老投资', '保本高息、内部项目、熟人荐股和养老理财骗局', '盲目投资型', withBase('/scenarios/investment')],
+  ['情感诈骗', '网上交友、嘘寒问暖后借钱或诱导投资', '孤独空巢型', withBase('/scenarios/romance')],
+  ['短视频代运营', '承诺快速涨粉引流，诱导付费或下载远程软件', '技术懵懂型', withBase('/scenarios/short-video-ops')],
+  ['旅游团购', '低价旅行团、强制购物、熟人社群带货', '热衷社交型', withBase('/scenarios/travel')],
+  ['机票退改签', '冒充航空公司客服，以航班取消和赔付为由骗钱', '技术懵懂型', withBase('/scenarios/ticket-change')],
+  ['AI换脸', '冒充子女或熟人视频通话借钱', '技术懵懂型', withBase('/scenarios/ai-face')],
+  ['假冒熟人', '“我出事了”“先借我一笔钱”之类的熟人求助', '所有家庭', withBase('/scenarios/fake-friend')],
+  ['刷单返利', '先小额返利，后要求不断垫资', '贪小便宜型', withBase('/scenarios/brushing')]
 ]
 </script>
 

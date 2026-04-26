@@ -1,4 +1,5 @@
 <script setup>
+import { withBase } from 'vitepress'
 import cases from '../../../../data/published/cases.json'
 
 const sortedCases = [...cases]
@@ -18,7 +19,7 @@ const formatGroups = (groups) => {
   <section class="recent-cases">
     <div class="recent-cases__header">
       <h2>最新案例</h2>
-      <a href="/cases/latest" class="recent-cases__link">查看全部</a>
+      <a :href="withBase('/cases/latest')" class="recent-cases__link">查看全部</a>
     </div>
 
     <p class="recent-cases__intro">
@@ -30,7 +31,7 @@ const formatGroups = (groups) => {
         v-for="item in sortedCases"
         :key="item.id"
         class="recent-cases__card"
-        :href="`/cases/generated/${item.id}`"
+        :href="withBase(`/cases/generated/${item.id}`)"
       >
         <div class="recent-cases__meta">
           <span>{{ item.scam_type || '待分类' }}</span>
@@ -45,8 +46,8 @@ const formatGroups = (groups) => {
     <div v-else class="recent-cases__empty">
       <p>当前还没有正式入库的案例，首页模块已准备好，后续抓取到数据后会自动展示。</p>
       <div class="recent-cases__actions">
-        <a href="/cases/latest">查看案例库状态</a>
-        <a href="/scenarios/">先看诈骗场景</a>
+        <a :href="withBase('/cases/latest')">查看案例库状态</a>
+        <a :href="withBase('/scenarios/')">先看诈骗场景</a>
       </div>
     </div>
   </section>

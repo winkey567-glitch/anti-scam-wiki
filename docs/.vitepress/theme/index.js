@@ -11,6 +11,9 @@ import ScenarioDetailPage from './components/ScenarioDetailPage.vue'
 import ProfileDetailPage from './components/ProfileDetailPage.vue'
 import CommunicationGuidePage from './components/CommunicationGuidePage.vue'
 import EmotionalGuidePage from './components/EmotionalGuidePage.vue'
+import GuideLandingPage from './components/GuideLandingPage.vue'
+import GuideFaqPage from './components/GuideFaqPage.vue'
+import ReportHelperPage from './components/ReportHelperPage.vue'
 
 export default {
   ...DefaultTheme,
@@ -27,5 +30,8 @@ export default {
     app.component('ProfileDetailPage', ProfileDetailPage)
     app.component('CommunicationGuidePage', CommunicationGuidePage)
     app.component('EmotionalGuidePage', EmotionalGuidePage)
+    app.component('GuideLandingPage', GuideLandingPage)
+    app.component('GuideFaqPage', GuideFaqPage)
+    app.component('ReportHelperPage', ReportHelperPage)
   }
 }
