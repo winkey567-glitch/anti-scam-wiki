@@ -7,6 +7,10 @@ import ScenariosOverviewPage from './components/ScenariosOverviewPage.vue'
 import ProfilesOverviewPage from './components/ProfilesOverviewPage.vue'
 import CasesLandingPage from './components/CasesLandingPage.vue'
 import ChecklistPage from './components/ChecklistPage.vue'
+import ScenarioDetailPage from './components/ScenarioDetailPage.vue'
+import ProfileDetailPage from './components/ProfileDetailPage.vue'
+import CommunicationGuidePage from './components/CommunicationGuidePage.vue'
+import EmotionalGuidePage from './components/EmotionalGuidePage.vue'
 
 export default {
   ...DefaultTheme,
@@ -19,5 +23,9 @@ export default {
     app.component('ProfilesOverviewPage', ProfilesOverviewPage)
     app.component('CasesLandingPage', CasesLandingPage)
     app.component('ChecklistPage', ChecklistPage)
+    app.component('ScenarioDetailPage', ScenarioDetailPage)
+    app.component('ProfileDetailPage', ProfileDetailPage)
+    app.component('CommunicationGuidePage', CommunicationGuidePage)
+    app.component('EmotionalGuidePage', EmotionalGuidePage)
   }
 }

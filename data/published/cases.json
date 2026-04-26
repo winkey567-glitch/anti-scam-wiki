@@ -1,1 +1,431 @@
-[]
+[
+  {
+    "id": "ba2f5985",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031796",
+    "processed_at": "2026-04-26T20:36:06.035082",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "校园贷 / 征信修复诈骗",
+    "summary": "2022年1月，湖北省某市张某某接到陌生电话，对方自称是某平台客服，能准确说出张某某个人信息，并表示要帮张某某消除“校园贷”记录，否则会影响个人征信。张某某按照对方要求向多个网贷平台借款，并分别转到对...",
+    "scam_type": "征信修复 / 校园贷诈骗",
+    "scenario": "虚假征信消除",
+    "target_group": [
+      "技术懵懂型",
+      "容易焦虑的人群"
+    ],
+    "key_phrases": [
+      "帮你消除记录",
+      "否则影响征信",
+      "需要先借款转到指定账户"
+    ],
+    "red_flags": [
+      "能准确说出个人信息",
+      "以征信为由施压",
+      "要求多平台借款后转账"
+    ],
+    "counter_measures": [
+      "征信问题只通过官方渠道处理",
+      "不按电话指示借款转账",
+      "先联系家人核实"
+    ],
+    "emergency_actions": [
+      "停止借款和转账",
+      "联系贷款平台和银行",
+      "保存通话证据报警"
+    ],
+    "psychological_trap": "利用对征信影响的恐惧心理"
+  },
+  {
+    "id": "bcca1d19",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031777",
+    "processed_at": "2026-04-26T20:36:06.035068",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "仿冒证券投资诈骗",
+    "summary": "2022年2月，河北省某市受害人胡某看到炒股广告，下载“平安证券”仿冒APP进行相关投资操作，开始投入小金额盈利并提现成功，遂加大投资金额，最后提现失败，合计被骗50万元。",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理"
+  },
+  {
+    "id": "e4df7a47",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031761",
+    "processed_at": "2026-04-26T20:36:06.035046",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充公检法安全账户诈骗",
+    "summary": "2021年6月，诈骗分子冒充浙江省某市派出所民警，联系郭某称其已涉嫌诈骗被立案，并要求郭某登录仿冒的某公安局官网查看立案信息，将资金转移到“安全账户”。郭某按照诈骗分子要求转账，合计被骗50余万元。",
+    "scam_type": "冒充公检法诈骗",
+    "scenario": "虚假办案 / 安全账户转账",
+    "target_group": [
+      "认知衰退型",
+      "容易紧张的老人"
+    ],
+    "key_phrases": [
+      "你涉嫌违法",
+      "必须转到安全账户",
+      "案件保密不能告诉家人"
+    ],
+    "red_flags": [
+      "电话办案",
+      "要求保密",
+      "要求转入安全账户"
+    ],
+    "counter_measures": [
+      "挂断后拨打 110 核实",
+      "任何安全账户都是骗局",
+      "先联系家人确认"
+    ],
+    "emergency_actions": [
+      "立刻止付",
+      "保存转账记录",
+      "马上报警"
+    ],
+    "psychological_trap": "利用恐惧和权威压制判断力"
+  },
+  {
+    "id": "915b147f",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031744",
+    "processed_at": "2026-04-26T20:36:06.035026",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充电商客服退款诈骗",
+    "summary": "2021年11月，四川省某市张某某接到谎称某电商的客服电话075xxx384，称张某某购买的尿不湿因质量问题可申请退款。张某某未通过官方渠道核实对方信息，按照对方指示进行转账操作，合计被骗7.5万元。",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立刻停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理"
+  },
+  {
+    "id": "fded5257",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031723",
+    "processed_at": "2026-04-26T20:36:06.035008",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "任务返现 / 刷单诈骗",
+    "summary": "2021年8月，江苏省某市方某某下载了“阿聊”APP和“汇龙支付”APP，参加所谓的“高额”任务返现活动。平台以连单任务、信誉不足为由让方某某先充钱再重启任务，方某某累计被骗11万元。",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念"
+  },
+  {
+    "id": "11bd4cf5",
+    "source_url": "https://www.cac.gov.cn/2022-04/14/c_1651546285887220.htm",
+    "source_name": "国家网信办",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:06.031691",
+    "processed_at": "2026-04-26T20:36:06.034984",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "仿冒贷款 APP 诈骗",
+    "summary": "2022年2月，江西省某市受害人洪某某下载了一款名为“京东.J.R”的仿冒APP，受到“额度高”“利息低”等表述诱导，注册账户并申请贷款。平台谎称其账号异常，需转账到所谓的“银保监会账户”进行验证，洪...",
+    "scam_type": "贷款诈骗",
+    "scenario": "仿冒贷款平台",
+    "target_group": [
+      "技术懵懂型",
+      "急需资金的人群"
+    ],
+    "key_phrases": [
+      "额度高利息低",
+      "先转账验证账户",
+      "解冻后即可放款"
+    ],
+    "red_flags": [
+      "要求先转账再放款",
+      "下载仿冒贷款 App",
+      "转入所谓监管账户"
+    ],
+    "counter_measures": [
+      "正规贷款不会先收费",
+      "贷款只走持牌平台",
+      "不向陌生账户做验证转账"
+    ],
+    "emergency_actions": [
+      "立刻停止转账",
+      "联系银行止付",
+      "保存 App 和转账信息报警"
+    ],
+    "psychological_trap": "利用资金焦虑和低息诱惑心理"
+  },
+  {
+    "id": "b92df224",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:05.208464",
+    "processed_at": "2026-04-26T20:36:06.034967",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "免费领游戏装备类诈骗",
+    "summary": "案例经过：2025年4月7日，小学生L某刷短视频时，收到陌生人可领“蛋仔派对”游戏装备的信息，在对方引导下下载了“腾讯会议”软件，进入视频会议后，银行卡被多次扣费，共计11480.04元。\n\n诈骗手段...",
+    "scam_type": "免费送礼诈骗",
+    "scenario": "免费礼品 / 游戏装备诱导",
+    "target_group": [
+      "贪小便宜型",
+      "未成年人家庭"
+    ],
+    "key_phrases": [
+      "免费领取",
+      "扫码就送",
+      "再操作一步就能到账"
+    ],
+    "red_flags": [
+      "先送小礼品",
+      "要求下载会议软件或陌生 App",
+      "索要银行卡或验证码"
+    ],
+    "counter_measures": [
+      "不扫陌生码",
+      "不为免费活动绑定支付信息",
+      "涉及验证码立即停止"
+    ],
+    "emergency_actions": [
+      "解绑银行卡或止付",
+      "卸载可疑软件",
+      "保留页面和聊天记录"
+    ],
+    "psychological_trap": "利用占便宜和从众心理"
+  },
+  {
+    "id": "a52de7be",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:05.208433",
+    "processed_at": "2026-04-26T20:36:06.034947",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "兼职刷单类诈骗",
+    "summary": "案例经过：2025年3月，一位群众网上应聘时，被人添加微信，对方称在京东购买东西可返利。该群众从3月28日起在京东购买37284元物品，后对方称其信用不通过，需交付50000元才能提取报酬，该群众转账...",
+    "scam_type": "刷单返利诈骗",
+    "scenario": "垫资返利陷阱",
+    "target_group": [
+      "贪小便宜型",
+      "想做兼职补贴家用的人群"
+    ],
+    "key_phrases": [
+      "动动手指就能赚钱",
+      "先垫资后返现",
+      "再做一单就能提现"
+    ],
+    "red_flags": [
+      "先返小钱建立信任",
+      "金额越来越大",
+      "提现被卡住要求继续补钱"
+    ],
+    "counter_measures": [
+      "任何先垫资兼职都不参与",
+      "不要继续补钱",
+      "保留聊天和支付记录"
+    ],
+    "emergency_actions": [
+      "停止转账",
+      "联系平台和银行",
+      "尽快报警"
+    ],
+    "psychological_trap": "利用小利诱惑和回本执念"
+  },
+  {
+    "id": "86030cd1",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:05.208395",
+    "processed_at": "2026-04-26T20:36:06.034918",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚构代买类诈骗",
+    "summary": "案例经过：2025年4月，C女士在微信上同意了骗子冒充某学校老师添加好友的请求，对方假装在其便利店购买牛肉礼盒、干果，因店铺无货，骗子推荐“卖牛肉礼盒”给网友，让C女士代买，C女士转账19900元后被...",
+    "scam_type": "代买垫付诈骗",
+    "scenario": "熟人身份引导代买",
+    "target_group": [
+      "热心助人型",
+      "小商户"
+    ],
+    "key_phrases": [
+      "帮我先代买一下",
+      "货到了马上给你结款",
+      "已经转账给你了"
+    ],
+    "red_flags": [
+      "用熟人或老师身份接近",
+      "要求先垫付",
+      "转账截图无法核验"
+    ],
+    "counter_measures": [
+      "先核实对方身份",
+      "不为陌生订单垫资",
+      "收款到账前不发货不代买"
+    ],
+    "emergency_actions": [
+      "保留聊天和转账截图",
+      "联系银行止付",
+      "及时报警"
+    ],
+    "psychological_trap": "利用助人和信任心理"
+  },
+  {
+    "id": "1d1bdb12",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:05.208360",
+    "processed_at": "2026-04-26T20:36:06.034884",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "虚假投资理财类诈骗",
+    "summary": "案例经过：2025年4月8日，D女士在抖音看到主播教学炒股赚钱，随后被引导下载“默往企业版”“HTzp”华泰证券炒股APP，进入“投资群”后，在助理引导下操作投钱，提现时以操作错误、缴纳保证金为由，被...",
+    "scam_type": "投资理财诈骗",
+    "scenario": "虚假投资平台",
+    "target_group": [
+      "盲目投资型",
+      "有积蓄的老人"
+    ],
+    "key_phrases": [
+      "内幕消息",
+      "稳赚高收益",
+      "缴纳保证金后即可提现"
+    ],
+    "red_flags": [
+      "高收益低风险",
+      "先小额盈利后诱导加码",
+      "提现时不断加收费用"
+    ],
+    "counter_measures": [
+      "投资前核实平台资质",
+      "高收益默认高风险",
+      "大额投资先与家人确认"
+    ],
+    "emergency_actions": [
+      "停止继续投入",
+      "保存平台和转账记录",
+      "立即报警"
+    ],
+    "psychological_trap": "利用快速获利和沉没成本心理"
+  },
+  {
+    "id": "56113bfd",
+    "source_url": "https://www.xinyuan.gov.cn/xinyuan/fangdxzp/202504/a209279cf4074fee9a6c65f1bbfce998.shtml",
+    "source_name": "新源县人民政府",
+    "source_reliability": "official",
+    "crawled_at": "2026-04-26T20:36:05.208306",
+    "processed_at": "2026-04-26T20:36:06.034842",
+    "status": "pending_review",
+    "content_lifecycle": "new",
+    "title": "冒充官方客服取消扣费类诈骗",
+    "summary": "案例经过：2025年4月16日，A女士接到陌生电话，对方称其在抖音APP开通了直播会员业务，若不及时取消，每月将自动扣费800元。A女士信以为真，跟随指示下载“飞语”APP、“抖音生活”APP，操作后...",
+    "scam_type": "冒充客服退款诈骗",
+    "scenario": "平台扣费 / 退款取消",
+    "target_group": [
+      "技术懵懂型",
+      "网购老人"
+    ],
+    "key_phrases": [
+      "不取消就会自动扣费",
+      "需要下载软件处理",
+      "需要共享屏幕或提供验证码"
+    ],
+    "red_flags": [
+      "主动来电处理退款",
+      "要求下载陌生 App",
+      "要求共享屏幕或验证码"
+    ],
+    "counter_measures": [
+      "只在官方 App 内处理退款",
+      "不下载陌生软件",
+      "验证码绝不外泄"
+    ],
+    "emergency_actions": [
+      "立刻停止操作",
+      "联系银行止付",
+      "保留聊天和转账证据"
+    ],
+    "psychological_trap": "利用害怕扣费和急于退款的心理"
+  }
+]

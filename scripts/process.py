@@ -1,4 +1,4 @@
-"""抓取、整理并保存诈骗案例数据。"""
+"""Fetch, structure, and publish anti-scam cases."""
 
 from __future__ import annotations
 
@@ -26,26 +26,31 @@ PUBLISHED_DIR = DATA_DIR / "published"
 RAW_FETCH_LIMIT = 5
 
 
-def generate_id(content: str) -> str:
-    """根据案例内容生成稳定 ID。"""
-    return hashlib.md5(content.encode("utf-8")).hexdigest()[:8]
+def case_identity(case: dict) -> str:
+    """Build a stable identity using source url plus title."""
+    title = case.get("title", "").strip()
+    source_url = case.get("source_url", "").strip()
+    if title or source_url:
+        return f"{source_url}|{title}"
+    return case.get("content", "").strip()
 
 
-def deduplicate(new_cases: list[dict], existing_cases: list[dict]) -> list[dict]:
-    """按 ID 去重，只保留新增案例。"""
-    existing_ids = {case["id"] for case in existing_cases}
-    return [case for case in new_cases if case["id"] not in existing_ids]
+def generate_id(title: str, source_url: str, content: str) -> str:
+    """Create a stable short id for a case."""
+    seed = f"{source_url.strip()}|{title.strip()}"
+    if not seed.strip("|"):
+        seed = content
+    return hashlib.md5(seed.encode("utf-8")).hexdigest()[:8]
 
 
 def process_case(raw_case: dict) -> dict:
-    """把原始抓取结果补充成结构化案例。"""
-    extracted = extract_case_info(
-        raw_case.get("title", ""),
-        raw_case.get("content", ""),
-    )
+    """Turn raw scraped content into a structured case record."""
+    title = raw_case.get("title", "").strip()
+    content = raw_case.get("content", "").strip()
+    extracted = extract_case_info(title, content)
 
     return {
-        "id": generate_id(raw_case.get("content", "")),
+        "id": generate_id(title, raw_case.get("source_url", ""), content),
         "source_url": raw_case.get("source_url", ""),
         "source_name": raw_case.get("source_name", ""),
         "source_reliability": raw_case.get("source_reliability", "community"),
@@ -58,7 +63,7 @@ def process_case(raw_case: dict) -> dict:
 
 
 def load_existing_cases(cases_file: Path) -> list[dict]:
-    """读取已有发布数据；文件不存在时返回空列表。"""
+    """Read existing published cases."""
     if not cases_file.exists():
         return []
 
@@ -67,27 +72,68 @@ def load_existing_cases(cases_file: Path) -> list[dict]:
 
 
 def save_json(path: Path, data: list[dict]) -> None:
-    """统一使用 UTF-8 保存 JSON。"""
+    """Persist JSON with UTF-8 output."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 
+def merge_cases(existing_cases: list[dict], processed_cases: list[dict]) -> tuple[list[dict], int, int]:
+    """Upsert cases by id so existing entries get refreshed."""
+    existing_map = {case_identity(case): case for case in existing_cases}
+    updated = 0
+    inserted = 0
+
+    for case in processed_cases:
+        identity = case_identity(case)
+        previous = existing_map.get(identity)
+
+        if previous is None:
+            existing_map[identity] = case
+            inserted += 1
+            continue
+
+        merged = {**previous, **case}
+
+        if previous.get("status") and previous.get("status") != "pending_review":
+            merged["status"] = previous["status"]
+        if previous.get("content_lifecycle") and previous.get("content_lifecycle") != "new":
+            merged["content_lifecycle"] = previous["content_lifecycle"]
+        if previous.get("editor_notes"):
+            merged["editor_notes"] = previous["editor_notes"]
+
+        existing_map[identity] = merged
+        updated += 1
+
+    ordered = sorted(
+        existing_map.values(),
+        key=lambda item: item.get("crawled_at", ""),
+        reverse=True,
+    )
+    return ordered, inserted, updated
+
+
 def main() -> None:
-    """执行抓取、处理、去重和保存流程。"""
+    """Run fetch, structure, merge, and publish."""
     print("开始抓取诈骗案例数据...")
 
     spider = FanZhaSpider()
-    list_items = spider.fetch_list(page=1)
-    print(f"获取到 {len(list_items)} 条列表项。")
+    raw_cases: list[dict]
 
-    raw_cases: list[dict] = []
-    for item in list_items[:RAW_FETCH_LIMIT]:
-        title = item.get("title", "").strip() or "未命名案例"
-        print(f"抓取详情: {title[:30]}...")
-        detail = spider.fetch_detail(item.get("url", ""))
-        if detail:
-            raw_cases.append(detail)
+    if hasattr(spider, "fetch_cases"):
+        raw_cases = spider.fetch_cases()
+        print(f"从官方文章中提取到 {len(raw_cases)} 条案例。")
+    else:
+        list_items = spider.fetch_list(page=1)
+        print(f"获取到 {len(list_items)} 条列表项。")
+
+        raw_cases = []
+        for item in list_items[:RAW_FETCH_LIMIT]:
+            title = item.get("title", "").strip() or "未命名案例"
+            print(f"抓取详情: {title[:30]}...")
+            detail = spider.fetch_detail(item.get("url", ""))
+            if detail:
+                raw_cases.append(detail)
 
     print(f"成功抓取 {len(raw_cases)} 条详情。")
 
@@ -100,10 +146,11 @@ def main() -> None:
 
     cases_file = PUBLISHED_DIR / "cases.json"
     existing_cases = load_existing_cases(cases_file)
-    new_cases = deduplicate(processed_cases, existing_cases)
-    print(f"新增 {len(new_cases)} 条案例（去重后）。")
+    all_cases, inserted, updated = merge_cases(existing_cases, processed_cases)
 
-    all_cases = existing_cases + new_cases
+    print(f"新增 {inserted} 条案例。")
+    print(f"刷新 {updated} 条已有案例。")
+
     save_json(cases_file, all_cases)
     print(f"发布数据已保存到: {cases_file}")
     print(f"当前累计案例数: {len(all_cases)}")
